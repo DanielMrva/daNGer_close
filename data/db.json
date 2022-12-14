@@ -2,1697 +2,1538 @@
   "users": [
     {
       "id": 0,
-      "username": "DestoryerParker",
-      "email": "Smile@email.com",
+      "username": "KingVolcano",
+      "email": "Zennon@email.com",
       "password": "password",
       "encounters": [
-        1,
-        4,
-        6,
-        17,
+        18,
         19,
-        29,
-        35,
-        41,
-        42,
-        45
+        49
       ],
       "comments": [
-        2,
+        6,
         11,
-        15,
-        35,
-        48,
-        50,
-        53,
+        18,
+        30,
+        49,
         54,
         57,
-        58,
-        59,
-        64,
-        73,
-        76,
-        80,
-        83,
-        97,
-        98
+        58
+      ],
+      "friends": [
+        4,
+        9,
+        2,
+        3,
+        7
       ]
     },
     {
       "id": 1,
-      "username": "AirmanThatcher",
-      "email": "Parker@email.com",
+      "username": "AstronautFrenchman",
+      "email": "Auldrin@email.com",
       "password": "password",
       "encounters": [
-        2,
-        5,
-        10,
-        11,
-        12,
-        13,
-        23,
-        24,
-        26,
+        17,
+        25,
+        28,
         38,
         44,
         47
       ],
       "comments": [
-        7,
-        14,
-        16,
-        20,
-        24,
-        31,
-        33,
-        38,
+        2,
+        15,
         46,
-        60,
-        65,
-        67,
-        69,
-        79,
-        82,
-        85,
-        86,
-        96
+        48,
+        52,
+        53,
+        63
+      ],
+      "friends": [
+        2,
+        6,
+        9,
+        7
       ]
     },
     {
       "id": 2,
-      "username": "FrenchmanMedusa",
-      "email": "Unicorn@email.com",
+      "username": "AlonzoZion",
+      "email": "Ostrich@email.com",
       "password": "password",
       "encounters": [
+        1,
+        3,
         9,
-        27,
-        30,
+        11,
+        21,
+        23,
         31,
         33,
-        39,
-        43,
-        48,
-        49
-      ],
-      "comments": [
-        1,
-        4,
-        5,
-        13,
-        21,
-        25,
-        39,
-        43,
-        44,
-        63,
-        66,
-        68,
-        74,
-        77,
-        78,
-        84,
-        89,
-        93,
-        99
-      ]
-    },
-    {
-      "id": 3,
-      "username": "GraceSarah",
-      "email": "Judy@email.com",
-      "password": "password",
-      "encounters": [
-        3,
-        7,
-        14,
-        15,
-        16,
-        22,
-        28,
-        34
-      ],
-      "comments": [
-        3,
-        12,
-        18,
-        23,
-        26,
-        27,
-        29,
-        30,
-        34,
-        42,
-        47,
-        49,
-        51,
-        52,
-        55,
-        56,
-        87,
-        90,
-        91,
-        95
-      ]
-    },
-    {
-      "id": 4,
-      "username": "WizardDog",
-      "email": "Wombat@email.com",
-      "password": "password",
-      "encounters": [
-        0,
-        8,
-        18,
-        20,
-        21,
-        25,
-        32,
-        36,
-        37,
         40,
         46
       ],
       "comments": [
         0,
-        6,
-        8,
-        9,
-        10,
-        17,
-        19,
-        22,
-        28,
-        32,
-        36,
-        37,
+        1,
+        23,
+        25,
+        26,
         40,
+        47
+      ],
+      "friends": [
+        1,
+        7,
+        0,
+        6,
+        8
+      ]
+    },
+    {
+      "id": 3,
+      "username": "DestoryerMaggie",
+      "email": "Dog@email.com",
+      "password": "password",
+      "encounters": [
+        12,
+        22,
+        26,
+        35,
+        36,
+        48
+      ],
+      "comments": [
+        24,
+        51,
+        60,
+        65
+      ],
+      "friends": [
+        6,
+        0,
+        7,
+        9
+      ]
+    },
+    {
+      "id": 4,
+      "username": "NarwalAeyBeeSea",
+      "email": "Zenith@email.com",
+      "password": "password",
+      "encounters": [
+        0,
+        10,
+        27,
+        39,
         41,
+        43,
+        45
+      ],
+      "comments": [
+        29,
+        33,
+        42,
+        43,
+        44,
         45,
+        55,
+        56
+      ],
+      "friends": [
+        0,
+        6,
+        9
+      ]
+    },
+    {
+      "id": 5,
+      "username": "RusBro",
+      "email": "Barbarian@email.com",
+      "password": "password",
+      "encounters": [
+        14,
+        20,
+        32
+      ],
+      "comments": [
+        10,
+        13,
+        21,
+        38,
         61,
         62,
-        70,
-        71,
-        72,
-        75,
-        81,
-        88,
-        92,
-        94
+        64,
+        67
+      ],
+      "friends": [
+        6
+      ]
+    },
+    {
+      "id": 6,
+      "username": "MonsterZe",
+      "email": "Zeek@email.com",
+      "password": "password",
+      "encounters": [
+        8,
+        15,
+        16,
+        42
+      ],
+      "comments": [
+        4,
+        20,
+        28,
+        35,
+        41,
+        50,
+        59
+      ],
+      "friends": [
+        3,
+        4,
+        5,
+        7,
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "id": 7,
+      "username": "XanderThatcher",
+      "email": "Zeph@email.com",
+      "password": "password",
+      "encounters": [
+        6,
+        7,
+        13,
+        24,
+        29,
+        34
+      ],
+      "comments": [
+        9,
+        12,
+        17,
+        22,
+        31,
+        32,
+        37,
+        66,
+        68,
+        69
+      ],
+      "friends": [
+        2,
+        6,
+        3,
+        8,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "username": "ZeWizard",
+      "email": "Coollastname@email.com",
+      "password": "password",
+      "encounters": [
+        4,
+        30
+      ],
+      "comments": [
+        3,
+        7,
+        8,
+        19,
+        27,
+        34,
+        36
+      ],
+      "friends": [
+        9,
+        7,
+        2
+      ]
+    },
+    {
+      "id": 9,
+      "username": "FauxHotDog",
+      "email": "Regina@email.com",
+      "password": "password",
+      "encounters": [
+        2,
+        5,
+        37
+      ],
+      "comments": [
+        5,
+        14,
+        16,
+        39
+      ],
+      "friends": [
+        8,
+        0,
+        4,
+        1,
+        3,
+        6
       ]
     }
   ],
   "encounters": [
     {
       "id": 0,
-      "description": "Exploded Thomas Catherine of Genoa nightime. Nightime cryptid slithered Nessie. Chem trails lost sonic-boom cigar. Cetus swam teleported mauled. Paralized room was wet chem trails.",
+      "description": "Spider Abrosima zombie grandfather cryptid. Hovered alien-human disceted disappeared faded giant. Drifted grandfather implanted chip. Disceted room was wet Tom Cruise Catherine of Genoa. Moth-Man Tom Cruise Orion lost. Exploded dead hovered bang. Abrosima cryptid flew Foo Fighters.",
       "encType": "Paranormal",
-      "date": "1997-01-24",
-      "category": "Physical contact",
-      "lat": 40.2221,
-      "lng": -98.3024,
-      "title": "Dreamland animal mutilations.",
-      "encounterUser": "WizardDog",
+      "date": "1987-08-14",
+      "category": "Visual Sighting",
+      "lat": 40.9161,
+      "lng": -102.3766,
+      "title": "Cetus cigar Unicorn disceted landed Tom Cruise alien triangle.",
+      "encounterUser": "NarwalAeyBeeSea",
       "userId": 4,
       "commentId": [
-        40,
-        49,
-        66,
-        92
+        17
       ]
     },
     {
       "id": 1,
-      "description": "Ultra terrestrials slow half-man hybrid went to sleep. Flew hovered attacked flash Abrosima. Big Foot crashed disappeared. Stigmata upsidedown attacked ran stigmata. Slime faded giant Foo Fighters abominable snowman Moth-Man. Grandmother exploded flying saucer Moth-Man disceted. Grey satyr lost room was wet.",
-      "encType": "Zoological",
-      "date": "2016-12-08",
-      "category": "Physical contact",
-      "lat": 39.7293,
-      "lng": -106.7963,
-      "title": "Zombie monster-human Catherine of Genoa gryphon satyr sacred hybrid UFO.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": [
-        16,
-        31,
-        62,
-        63
-      ]
+      "description": "Thomas gryphon probed spider. Animal mutilations flash grandmother slow. Attacked me punched bigfoot woke up. Thomas spider slime gryphon. Unicorn Pluto silent Moth-Man Foo Fighters.",
+      "encType": "Paranormal",
+      "date": "2012-01-12",
+      "category": "PsychoKinesis",
+      "lat": 37.9652,
+      "lng": -107.8949,
+      "title": "Abominable snowman Tom Cruise.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": []
     },
     {
       "id": 2,
-      "description": "Zombie implanted chip Unicorn. Silent Moth-Man flying saucer dead sonic-boom. Nessie slow ghost. Orion implanted chip grandmother. Exploded Demi-Gorgon sacred flash. Tom Cruise Augustine crashed.",
-      "encType": "Zoological",
-      "date": "1996-11-30",
-      "category": "Visual Sighting",
-      "lat": 40.5276,
-      "lng": -105.2187,
-      "title": "Went to sleep cryptid half-man sonic-boom faded giant.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        68
-      ]
-    },
-    {
-      "id": 3,
-      "description": "Lost Sasquach silent hybrid implanted chip. Flying saucer ultra terrestrials Bermuda Triangle. Hovered Bermuda Triangle Big Foot stigmata. Ran exploded ultra terrestrials Cetus. Stigmata flash sacred. Exploded faded giant crashed slow. Unicorn Saint abducted captured.",
+      "description": "Orion landed Sasquach Augustine Zeta Reticuli. Augustine cryptid ran. Crashed spider Cetus flew. Disceted Nessie silent ultra terrestrials. Grandmother spoke to me bang. Went to sleep undead Augustine.",
       "encType": "Extraterrestrial",
-      "date": "2013-01-26",
-      "category": "Environmental change",
-      "lat": 37.3867,
-      "lng": -98.0963,
-      "title": "Paralized attacked Thomas slithered glowed Catherine of Genoa undead.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": []
-    },
-    {
-      "id": 4,
-      "description": "Hovered satyr dead floated upsidedown. Abrosima triangle cigar went to sleep floated. Teleported woke up woke up captured monster. Grandmother went to sleep ghost floated. Drifted Abrosima slow monster-human. Moth-Man Thomas nightime.",
-      "encType": "Paranormal",
-      "date": "1988-05-11",
-      "category": "Physical contact",
-      "lat": 41.689,
-      "lng": -95.467,
-      "title": "Slithered cigar.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": []
-    },
-    {
-      "id": 5,
-      "description": "Big Foot sacred stigmata. Umbrella cryptid satyr paralized. Flying saucer hid flying saucer ultra terrestrials. Monster-human slithered Tom Cruise mauled specter. Dead faded giant sacred monster UFO. Nightime faded giant punched bigfoot Nessie went to sleep. Attacked me half-man captured swam.",
-      "encType": "Paranormal",
-      "date": "1974-07-16",
-      "category": "Environmental change",
-      "lat": 37.8901,
-      "lng": -106.5765,
-      "title": "Animal mutilations probed grandmother.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        5,
-        80,
-        89
-      ]
-    },
-    {
-      "id": 6,
-      "description": "Landed Pluto Thomas lost triangle. Half-man stigmata spider chem trails. Flying saucer swam woke up attacked. Room was wet slime Zeta Reticuli Pluto Tom Cruise. Stalked faded giant flash.",
-      "encType": "Zoological",
-      "date": "2019-06-06",
+      "date": "1980-05-22",
       "category": "Audible Sighting",
-      "lat": 38.0631,
-      "lng": -96.9181,
-      "title": "Zoom cigar abducted Unicorn satyr implanted chip.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
+      "lat": 37.0743,
+      "lng": -102.1758,
+      "title": "Swam half-man Catherine of Genoa Grey umbrella captured Orion.",
+      "encounterUser": "FauxHotDog",
+      "userId": 9,
       "commentId": [
-        43,
-        58,
-        59,
-        85
-      ]
-    },
-    {
-      "id": 7,
-      "description": "Saint room was wet flying saucer spider. Probed animal mutilations ultra terrestrials Nessie Augustine. Abrosima flying saucer zombie. Zeta Reticuli beholder satyr stalked. Abducted faded giant captured. Spider Abrosima Epsilon Eridani.",
-      "encType": "Extraterrestrial",
-      "date": "2000-08-01",
-      "category": "PsychoKinesis",
-      "lat": 41.7157,
-      "lng": -101.3571,
-      "title": "Nightime Abrosima spider.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        7,
-        35,
-        98
-      ]
-    },
-    {
-      "id": 8,
-      "description": "Rainbow Orion hovered silver punched bigfoot. Faded giant swam abominable snowman monster-human. Flying saucer triangle Zeta Reticuli. Pluto Grey faded giant. Went to sleep animal mutilations nightime spider. Big Foot Moth-Man cigar Cetus. Bermuda Triangle landed Zeta Reticuli.",
-      "encType": "Paranormal",
-      "date": "1993-08-29",
-      "category": "Visual Sighting",
-      "lat": 38.4827,
-      "lng": -107.4242,
-      "title": "Zombie lost alien.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": []
-    },
-    {
-      "id": 9,
-      "description": "Epsilon Eridani crashed gryphon greeted. Zeta Reticuli ghost ran faded giant. Implanted chip paralized undead Moth-Man abducted. Hybrid grandfather triangle beholder. Stalked flew triangle greeted beholder. Orion Nessie greeted woke up glowed. Ran slithered Nessie glowed half-man.",
-      "encType": "Paranormal",
-      "date": "2004-07-22",
-      "category": "PsychoKinesis",
-      "lat": 37.9179,
-      "lng": -96.9889,
-      "title": "Beholder dead animal mutilations floated attacked me Saint.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
-      "commentId": [
-        60,
-        97
-      ]
-    },
-    {
-      "id": 10,
-      "description": "Flew cigar abominable snowman dead. Saint cigar Catherine of Genoa. Foo Fighters dead ectoplasim. Spoke to me Big Foot Tom Cruise undead went to sleep. Bermuda Triangle crashed bang stalked slithered. Landed monster Moth-Man teleported captured. Nightime landed Epsilon Eridani attacked Catherine of Genoa.",
-      "encType": "Zoological",
-      "date": "1989-07-27",
-      "category": "Audible Sighting",
-      "lat": 39.941,
-      "lng": -102.2558,
-      "title": "Silent exploded UFO attacked me upsidedown Epsilon Eridani Orion.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": []
-    },
-    {
-      "id": 11,
-      "description": "Hovered Moth-Man slithered exploded half-man. Hid Abrosima nightime greeted Orion. Demi-Gorgon swam animal mutilations Epsilon Eridani. Spider half-man paralized room was wet. Implanted chip went to sleep Moth-Man. Sonic-boom beholder Foo Fighters Big Foot. Grey exploded mauled attacked.",
-      "encType": "Extraterrestrial",
-      "date": "2016-08-02",
-      "category": "Environmental change",
-      "lat": 40.06,
-      "lng": -105.5962,
-      "title": "Hid captured.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        39
-      ]
-    },
-    {
-      "id": 12,
-      "description": "Moth-Man dreamland Pluto. Flew Bermuda Triangle Pluto zoom. Disappeared spoke to me ultra terrestrials grandfather. Ultra terrestrials Zeta Reticuli mauled abominable snowman. Flying saucer paralized probed dreamland.",
-      "encType": "Zoological",
-      "date": "2008-07-20",
-      "category": "Physical contact",
-      "lat": 41.7649,
-      "lng": -95.1852,
-      "title": "Implanted chip Orion flew chem trails.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        82
-      ]
-    },
-    {
-      "id": 13,
-      "description": "Flew woke up floated undead. Exploded flash Epsilon Eridani. Pluto greeted Abrosima Saint. Tom Cruise bang monster-human. Tom Cruise rainbow landed landed animal mutilations. Swam ectoplasim floated zombie. Swam hid slime umbrella flying disk.",
-      "encType": "Zoological",
-      "date": "2013-06-03",
-      "category": "Environmental change",
-      "lat": 39.3993,
-      "lng": -106.9663,
-      "title": "Disappeared monster-human Foo Fighters stalked went to sleep landed abominable snowman Grey.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        37,
-        54
-      ]
-    },
-    {
-      "id": 14,
-      "description": "Floated cigar umbrella cigar. Teleported implanted chip hid silver glowed. Animal mutilations swam Tom Cruise satyr hovered. Umbrella umbrella abominable snowman. Unicorn faded giant flying saucer grandfather Thomas.",
-      "encType": "Zoological",
-      "date": "1987-04-13",
-      "category": "Physical contact",
-      "lat": 38.1718,
-      "lng": -105.3292,
-      "title": "Landed sonic-boom satyr.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        36,
-        94,
-        95
-      ]
-    },
-    {
-      "id": 15,
-      "description": "Zoom room was wet spoke to me mauled Nessie. Cryptid Zeta Reticuli triangle specter gryphon. Catherine of Genoa lost Big Foot abominable snowman rainbow. Grandmother monster ran. Augustine slow woke up Nessie. Dead went to sleep nightime. Hid paralized drifted flying disk sonic-boom.",
-      "encType": "Extraterrestrial",
-      "date": "1993-12-20",
-      "category": "Physical contact",
-      "lat": 41.6143,
-      "lng": -97.9202,
-      "title": "Sasquach floated captured MK Ultra chem trails.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        42,
-        61,
-        73
-      ]
-    },
-    {
-      "id": 16,
-      "description": "Paralized silver gryphon UFO zombie. Epsilon Eridani Moth-Man Nessie flew slime. Thomas Saint cigar. Drifted MK Ultra ectoplasim undead. Sonic-boom ghost chem trails Moth-Man crashed.",
-      "encType": "Extraterrestrial",
-      "date": "2019-08-08",
-      "category": "Physical contact",
-      "lat": 41.9942,
-      "lng": -109.4094,
-      "title": "Exploded half-man Zeta Reticuli hybrid room was wet probed.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        12,
-        32
-      ]
-    },
-    {
-      "id": 17,
-      "description": "Thomas dead glowed Nessie. Alien-human ran slime. Dreamland chem trails swam. Foo Fighters umbrella rainbow nightime monster-human. Hid Cetus Moth-Man alien-human zoom. Specter silver dreamland.",
-      "encType": "Paranormal",
-      "date": "1987-01-16",
-      "category": "Audible Sighting",
-      "lat": 38.3242,
-      "lng": -99.2889,
-      "title": "Room was wet spoke to me lost gryphon.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": [
-        3,
-        10,
-        17,
-        34,
-        53,
-        57
-      ]
-    },
-    {
-      "id": 18,
-      "description": "Bang drifted gryphon. Zeta Reticuli probed Demi-Gorgon. Rainbow zombie beholder. Spider woke up dreamland floated. Ultra terrestrials nightime hybrid alien-human. Gryphon grandfather specter. Tom Cruise captured Moth-Man.",
-      "encType": "Zoological",
-      "date": "2019-09-27",
-      "category": "Environmental change",
-      "lat": 40.3458,
-      "lng": -100.511,
-      "title": "Attacked me bang slow satyr.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": []
-    },
-    {
-      "id": 19,
-      "description": "MK Ultra attacked me went to sleep spider. Disceted paralized slithered. Disceted drifted Thomas. Satyr Unicorn stigmata upsidedown crashed. Ectoplasim woke up probed Abrosima.",
-      "encType": "Zoological",
-      "date": "2000-11-13",
-      "category": "Audible Sighting",
-      "lat": 41.2336,
-      "lng": -109.6799,
-      "title": "Teleported went to sleep cigar slow.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": [
-        13,
-        88,
-        91
-      ]
-    },
-    {
-      "id": 20,
-      "description": "Stigmata room was wet attacked me specter alien-human. Landed specter greeted swam probed. Alien crashed spider spoke to me Abrosima. Hid exploded mauled teleported. Faded giant stigmata bang MK Ultra Sasquach.",
-      "encType": "Extraterrestrial",
-      "date": "2003-02-15",
-      "category": "Environmental change",
-      "lat": 40.5729,
-      "lng": -108.5311,
-      "title": "Implanted chip lost stigmata hovered ghost.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": []
-    },
-    {
-      "id": 21,
-      "description": "Crashed zombie swam implanted chip rainbow. Attacked me dreamland disceted Cetus disappeared. Animal mutilations Cetus landed. Abominable snowman attacked gryphon triangle. Cryptid spoke to me alien-human. Stigmata slithered Moth-Man specter. Half-man teleported flying saucer.",
-      "encType": "Paranormal",
-      "date": "1996-04-05",
-      "category": "Visual Sighting",
-      "lat": 37.0504,
-      "lng": -101.2333,
-      "title": "Zeta Reticuli Moth-Man Nessie.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": [
-        29,
-        45,
-        76
-      ]
-    },
-    {
-      "id": 22,
-      "description": "Crashed alien hybrid. Bang Saint hovered grandmother. Room was wet Moth-Man ectoplasim Unicorn. Unicorn hovered Tom Cruise specter. Triangle attacked flying saucer hybrid triangle. Foo Fighters abducted probed paralized. Sasquach umbrella Big Foot.",
-      "encType": "Paranormal",
-      "date": "1985-06-17",
-      "category": "Physical contact",
-      "lat": 38.61,
-      "lng": -106.3777,
-      "title": "Exploded triangle ultra terrestrials landed silver monster rainbow.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        56,
-        64
-      ]
-    },
-    {
-      "id": 23,
-      "description": "Ghost Saint sonic-boom Foo Fighters. Abducted slime swam paralized implanted chip. Orion dead slime monster-human. Crashed Tom Cruise silent flying saucer spoke to me. Grey monster exploded went to sleep. Abducted satyr mauled swam. Stigmata flash Abrosima.",
-      "encType": "Zoological",
-      "date": "2015-03-12",
-      "category": "Audible Sighting",
-      "lat": 40.8151,
-      "lng": -106.829,
-      "title": "Captured teleported ghost abominable snowman Pluto.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": []
-    },
-    {
-      "id": 24,
-      "description": "Grandmother beholder Sasquach Moth-Man. Probed Bermuda Triangle zoom Big Foot. Alien-human landed exploded sonic-boom. Epsilon Eridani greeted Catherine of Genoa monster teleported. Grey upsidedown ghost Nessie alien-human. UFO undead rainbow. Thomas Bermuda Triangle landed chem trails.",
-      "encType": "Paranormal",
-      "date": "1988-06-02",
-      "category": "Audible Sighting",
-      "lat": 38.9776,
-      "lng": -107.4373,
-      "title": "Bang attacked woke up abducted rainbow abducted flash.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        21,
-        38,
-        50
-      ]
-    },
-    {
-      "id": 25,
-      "description": "Hovered Foo Fighters abominable snowman teleported. Attacked me bang beholder teleported grandmother. Exploded bang teleported. Flew upsidedown Demi-Gorgon. Captured flying disk disceted Thomas. Specter silent floated slithered slime.",
-      "encType": "Paranormal",
-      "date": "1977-12-13",
-      "category": "Visual Sighting",
-      "lat": 37.7566,
-      "lng": -107.7328,
-      "title": "Nightime greeted dreamland monster.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": [
-        18,
-        26,
-        47,
-        51
-      ]
-    },
-    {
-      "id": 26,
-      "description": "Attacked abominable snowman room was wet attacked. Tom Cruise Sasquach drifted. Disceted monster-human satyr. Cigar ran stalked. Ran silver umbrella. Zeta Reticuli ectoplasim upsidedown monster-human stigmata. Disceted zoom monster-human lost dead.",
-      "encType": "Paranormal",
-      "date": "1990-02-06",
-      "category": "Visual Sighting",
-      "lat": 38.596,
-      "lng": -96.3592,
-      "title": "Big Foot paralized.",
-      "encounterUser": "AirmanThatcher",
-      "userId": 1,
-      "commentId": [
-        69,
-        86
-      ]
-    },
-    {
-      "id": 27,
-      "description": "Silver floated greeted slime. Hybrid lost grandfather glowed Demi-Gorgon. Ectoplasim abducted hybrid alien-human Thomas. Abducted mauled Abrosima. Thomas paralized cigar. Orion punched bigfoot specter hovered glowed. Nessie umbrella Orion half-man Pluto.",
-      "encType": "Zoological",
-      "date": "2019-02-08",
-      "category": "Environmental change",
-      "lat": 39.3419,
-      "lng": -107.0151,
-      "title": "Ectoplasim disceted slow flash.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
-      "commentId": [
-        9,
-        11,
         28
       ]
     },
     {
-      "id": 28,
-      "description": "Monster-human faded giant slow. Beholder Bermuda Triangle chem trails. Silent specter Saint grandfather. Thomas half-man disceted. Flash zombie flash. Big Foot chem trails monster upsidedown cryptid.",
+      "id": 3,
+      "description": "Ultra terrestrials grandfather attacked. Landed Demi-Gorgon Thomas. Exploded captured abducted. Glowed silent hid. Disceted lost animal mutilations. Lost probed captured captured landed. Saint flash monster Big Foot attacked.",
       "encType": "Paranormal",
-      "date": "1997-07-20",
-      "category": "Physical contact",
-      "lat": 39.7666,
-      "lng": -95.2012,
-      "title": "Glowed zoom spoke to me exploded grandfather.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": [
-        25,
-        87
-      ]
-    },
-    {
-      "id": 29,
-      "description": "Saint ghost alien Thomas. Spider exploded Unicorn stigmata. Flash sonic-boom slithered specter attacked me. Pluto Epsilon Eridani dreamland. Landed rainbow faded giant landed.",
-      "encType": "Extraterrestrial",
-      "date": "1998-01-14",
-      "category": "PsychoKinesis",
-      "lat": 40.2973,
-      "lng": -108.3462,
-      "title": "Animal mutilations grandmother greeted exploded went to sleep.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": [
-        15,
-        20,
-        30,
-        70,
-        72,
-        96
-      ]
-    },
-    {
-      "id": 30,
-      "description": "Went to sleep dreamland Tom Cruise. Catherine of Genoa Abrosima flash. Nightime spoke to me Thomas. Hybrid attacked zoom attacked me. Flying disk abominable snowman animal mutilations ectoplasim. Catherine of Genoa animal mutilations gryphon exploded. Exploded ultra terrestrials floated.",
-      "encType": "Zoological",
-      "date": "1991-09-16",
-      "category": "PsychoKinesis",
-      "lat": 38.8365,
-      "lng": -109.3541,
-      "title": "Demi-Gorgon Sasquach flew gryphon captured stalked.",
-      "encounterUser": "FrenchmanMedusa",
+      "date": "2020-01-09",
+      "category": "Audible Sighting",
+      "lat": 41.5788,
+      "lng": -103.5992,
+      "title": "Augustine exploded ectoplasim slime grandfather flash.",
+      "encounterUser": "AlonzoZion",
       "userId": 2,
       "commentId": [
-        74,
-        75
+        29,
+        37
       ]
     },
     {
-      "id": 31,
-      "description": "Satyr hid rainbow. Cryptid sonic-boom MK Ultra flying disk Bermuda Triangle. Ectoplasim implanted chip triangle Grey bang. Silent flying saucer dead dreamland. Spider MK Ultra nightime Catherine of Genoa alien-human. Lost drifted undead. Dead half-man Abrosima attacked.",
-      "encType": "Zoological",
-      "date": "2007-07-07",
+      "id": 4,
+      "description": "Zeta Reticuli cigar ultra terrestrials zoom. Sasquach grandfather flew dead. Zoom dead alien-human specter. Stalked abducted ran stalked beholder. Cigar Saint Sasquach silent zoom.",
+      "encType": "Extraterrestrial",
+      "date": "2010-08-17",
       "category": "Environmental change",
-      "lat": 37.4914,
-      "lng": -105.8616,
-      "title": "Crashed captured Unicorn flew alien-human spoke to me MK Ultra slime.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
+      "lat": 41.4283,
+      "lng": -107.573,
+      "title": "Hybrid MK Ultra UFO Saint sonic-boom umbrella floated.",
+      "encounterUser": "ZeWizard",
+      "userId": 8,
       "commentId": [
-        65
+        5,
+        61
       ]
     },
     {
-      "id": 32,
-      "description": "Abominable snowman Abrosima Augustine Catherine of Genoa sonic-boom. Flash glowed faded giant Unicorn. Moth-Man ghost crashed ultra terrestrials Tom Cruise. Silent Demi-Gorgon upsidedown flash punched bigfoot. Room was wet undead undead woke up. Upsidedown Saint Saint punched bigfoot floated. Exploded ran cigar alien.",
-      "encType": "Paranormal",
-      "date": "1998-06-07",
-      "category": "Physical contact",
-      "lat": 40.1314,
-      "lng": -100.6502,
-      "title": "Ultra terrestrials crashed exploded alien-human captured.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
-      "commentId": [
-        14
-      ]
-    },
-    {
-      "id": 33,
-      "description": "Slime bang nightime Foo Fighters. Stalked Augustine gryphon slow ghost. Slime Saint Saint. Abominable snowman beholder Moth-Man. Slow went to sleep rainbow beholder animal mutilations. Flying saucer attacked me went to sleep attacked. Foo Fighters attacked Orion zombie.",
-      "encType": "Extraterrestrial",
-      "date": "2004-12-06",
-      "category": "PsychoKinesis",
-      "lat": 41.8784,
-      "lng": -104.1236,
-      "title": "Ultra terrestrials disappeared.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
-      "commentId": [
-        67,
-        77
-      ]
-    },
-    {
-      "id": 34,
-      "description": "Alien attacked sacred. Abrosima stalked nightime chem trails. Bang room was wet room was wet ectoplasim. Tom Cruise slithered Cetus alien-human. Mauled Sasquach ran Nessie. Animal mutilations hid implanted chip.",
-      "encType": "Paranormal",
-      "date": "1987-12-15",
-      "category": "Visual Sighting",
-      "lat": 39.8615,
-      "lng": -108.8648,
-      "title": "Saint crashed silver.",
-      "encounterUser": "GraceSarah",
-      "userId": 3,
-      "commentId": []
-    },
-    {
-      "id": 35,
-      "description": "Epsilon Eridani ectoplasim sonic-boom hybrid Sasquach. Sonic-boom implanted chip hid flash. Greeted swam Cetus Nessie attacked me. Hid Orion satyr. Monster ghost Tom Cruise landed upsidedown. Monster floated glowed.",
-      "encType": "Extraterrestrial",
-      "date": "2008-05-21",
-      "category": "Environmental change",
-      "lat": 39.0814,
-      "lng": -102.1045,
-      "title": "Cetus Saint exploded flying saucer swam silent zombie alien-human.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
-      "commentId": [
-        1,
-        79
-      ]
-    },
-    {
-      "id": 36,
-      "description": "UFO sonic-boom lost slithered spider. Landed abominable snowman Foo Fighters flash spider. Dead Moth-Man Big Foot attacked. Slime disceted cigar. Pluto MK Ultra teleported slime.",
+      "id": 5,
+      "description": "Woke up flying disk room was wet. Crashed exploded lost Big Foot. Spoke to me Demi-Gorgon silver. Epsilon Eridani zoom spoke to me Catherine of Genoa zoom. Exploded Nessie UFO. Triangle alien-human ran Bermuda Triangle.",
       "encType": "Zoological",
-      "date": "1988-06-13",
-      "category": "Physical contact",
-      "lat": 40.3984,
-      "lng": -96.3239,
-      "title": "Flash attacked me silver Augustine room was wet undead.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
+      "date": "1985-11-05",
+      "category": "PsychoKinesis",
+      "lat": 38.7684,
+      "lng": -95.7064,
+      "title": "Crashed greeted spider paralized.",
+      "encounterUser": "FauxHotDog",
+      "userId": 9,
       "commentId": [
         52
       ]
     },
     {
-      "id": 37,
-      "description": "Thomas Foo Fighters alien-human flash Pluto. Satyr dead faded giant slow landed. Epsilon Eridani hid dead hid. UFO faded giant umbrella zoom Augustine. Spider monster-human paralized Grey. Landed exploded grandmother. Flash dreamland cryptid teleported.",
+      "id": 6,
+      "description": "Drifted flying saucer crashed. Exploded flew woke up. Silent flying disk Pluto Orion ran. Monster-human zoom zombie. Slime Grey Abrosima Unicorn. Flying disk Pluto sonic-boom.",
       "encType": "Paranormal",
-      "date": "2007-12-16",
+      "date": "2000-03-25",
       "category": "Audible Sighting",
-      "lat": 39.87,
-      "lng": -101.2711,
-      "title": "Stigmata ran swam sacred.",
-      "encounterUser": "WizardDog",
+      "lat": 38.7454,
+      "lng": -101.7523,
+      "title": "Bermuda Triangle greeted.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": [
+        3,
+        24
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Moth-Man Unicorn zombie specter. Hovered grandmother cigar woke up. Disappeared triangle crashed flying disk. Hybrid teleported sonic-boom silent. Ultra terrestrials flying saucer disceted Demi-Gorgon.",
+      "encType": "Paranormal",
+      "date": "2016-04-14",
+      "category": "Audible Sighting",
+      "lat": 38.5438,
+      "lng": -100.0912,
+      "title": "Half-man slithered Tom Cruise ultra terrestrials punched bigfoot Augustine alien Demi-Gorgon.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": []
+    },
+    {
+      "id": 8,
+      "description": "Slime Pluto flew Nessie UFO. Foo Fighters bang animal mutilations UFO. Gryphon greeted UFO alien-human monster-human. Attacked abducted Tom Cruise silent. Implanted chip abominable snowman half-man umbrella Tom Cruise. Flash teleported slime slime. Foo Fighters sonic-boom Saint Big Foot.",
+      "encType": "Paranormal",
+      "date": "1987-02-06",
+      "category": "Environmental change",
+      "lat": 37.9869,
+      "lng": -100.4653,
+      "title": "Rainbow nightime upsidedown Bermuda Triangle.",
+      "encounterUser": "MonsterZe",
+      "userId": 6,
+      "commentId": []
+    },
+    {
+      "id": 9,
+      "description": "Specter bang grandmother chem trails grandfather. Flying saucer specter ghost. Ran exploded abducted Big Foot Tom Cruise. Zoom Grey slow. Cigar monster-human Thomas zombie. Ectoplasim sonic-boom alien.",
+      "encType": "Paranormal",
+      "date": "1984-04-19",
+      "category": "Environmental change",
+      "lat": 41.6355,
+      "lng": -109.4844,
+      "title": "Half-man Zeta Reticuli.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": [
+        9,
+        26
+      ]
+    },
+    {
+      "id": 10,
+      "description": "Undead silver rainbow. Sacred punched bigfoot Nessie undead abominable snowman. Pluto Nessie Zeta Reticuli punched bigfoot. Flying disk monster abominable snowman triangle. Drifted Catherine of Genoa Nessie.",
+      "encType": "Zoological",
+      "date": "1990-05-22",
+      "category": "Visual Sighting",
+      "lat": 40.0875,
+      "lng": -106.869,
+      "title": "Monster slime triangle attacked me silent gryphon Cetus teleported.",
+      "encounterUser": "NarwalAeyBeeSea",
       "userId": 4,
       "commentId": [
-        44,
-        81
+        10
+      ]
+    },
+    {
+      "id": 11,
+      "description": "Crashed floated Cetus Unicorn. Grey zombie ghost stalked. Punched bigfoot Sasquach drifted. MK Ultra Zeta Reticuli exploded. Room was wet slime Moth-Man dreamland flying disk.",
+      "encType": "Zoological",
+      "date": "2014-06-24",
+      "category": "Visual Sighting",
+      "lat": 40.7475,
+      "lng": -105.4077,
+      "title": "Sasquach spoke to me floated.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": [
+        22,
+        44
+      ]
+    },
+    {
+      "id": 12,
+      "description": "Stigmata hovered Saint probed undead. Satyr Pluto mauled slow. Bermuda Triangle hid exploded Zeta Reticuli. Saint monster-human spoke to me swam abominable snowman. UFO Thomas implanted chip Catherine of Genoa stigmata.",
+      "encType": "Zoological",
+      "date": "1989-05-05",
+      "category": "Environmental change",
+      "lat": 41.7975,
+      "lng": -108.8383,
+      "title": "Big Foot Augustine.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
+      "commentId": [
+        21
+      ]
+    },
+    {
+      "id": 13,
+      "description": "Slow faded giant probed slime. Abrosima greeted spider ran abominable snowman. Beholder silent alien. Specter glowed Unicorn. Drifted Zeta Reticuli teleported triangle. Punched bigfoot flew punched bigfoot hybrid. Swam crashed abducted faded giant floated.",
+      "encType": "Paranormal",
+      "date": "1996-02-16",
+      "category": "Environmental change",
+      "lat": 40.5043,
+      "lng": -105.2005,
+      "title": "Landed chem trails flash.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": [
+        46
+      ]
+    },
+    {
+      "id": 14,
+      "description": "Disappeared Moth-Man Big Foot cigar. Big Foot stalked stalked Thomas Thomas. Mauled Zeta Reticuli beholder. Hybrid umbrella silent silver Zeta Reticuli. Stalked captured Bermuda Triangle swam. Abducted Foo Fighters Foo Fighters silent Saint. Sasquach cigar bang.",
+      "encType": "Extraterrestrial",
+      "date": "2006-12-19",
+      "category": "Visual Sighting",
+      "lat": 37.2649,
+      "lng": -98.9275,
+      "title": "MK Ultra monster sacred undead.",
+      "encounterUser": "RusBro",
+      "userId": 5,
+      "commentId": [
+        18,
+        23,
+        41
+      ]
+    },
+    {
+      "id": 15,
+      "description": "Beholder lost attacked me swam. MK Ultra implanted chip zombie Saint. Faded giant MK Ultra probed attacked me. Silent zoom Big Foot drifted rainbow. Triangle grandmother lost umbrella grandmother. Alien nightime room was wet. Punched bigfoot upsidedown glowed Abrosima Saint.",
+      "encType": "Paranormal",
+      "date": "2011-08-13",
+      "category": "Visual Sighting",
+      "lat": 39.5185,
+      "lng": -103.6616,
+      "title": "Nightime hovered Nessie Grey.",
+      "encounterUser": "MonsterZe",
+      "userId": 6,
+      "commentId": [
+        4,
+        27
+      ]
+    },
+    {
+      "id": 16,
+      "description": "Bang Epsilon Eridani flying saucer. Sasquach Bermuda Triangle floated Augustine. Foo Fighters dreamland spider. Specter teleported bang disceted. Unicorn sacred greeted animal mutilations. Hovered Moth-Man Nessie implanted chip room was wet.",
+      "encType": "Extraterrestrial",
+      "date": "2001-07-11",
+      "category": "Visual Sighting",
+      "lat": 40.5266,
+      "lng": -105.5586,
+      "title": "Disceted crashed Augustine Nessie punched bigfoot.",
+      "encounterUser": "MonsterZe",
+      "userId": 6,
+      "commentId": []
+    },
+    {
+      "id": 17,
+      "description": "Attacked me punched bigfoot Catherine of Genoa. Crashed Foo Fighters floated Thomas satyr. Thomas hovered satyr. Zeta Reticuli Augustine triangle woke up. Upsidedown Demi-Gorgon landed bang Thomas. Swam bang stalked.",
+      "encType": "Zoological",
+      "date": "2014-07-16",
+      "category": "Audible Sighting",
+      "lat": 41.4116,
+      "lng": -109.0726,
+      "title": "Undead alien-human.",
+      "encounterUser": "AstronautFrenchman",
+      "userId": 1,
+      "commentId": []
+    },
+    {
+      "id": 18,
+      "description": "Disceted rainbow greeted alien-human captured. Bang silent Nessie. Umbrella abducted exploded spider. Landed gryphon bang mauled. Hovered room was wet flew. UFO probed crashed chem trails ectoplasim. Probed monster monster Thomas.",
+      "encType": "Zoological",
+      "date": "1985-10-20",
+      "category": "Visual Sighting",
+      "lat": 37.3548,
+      "lng": -101.8294,
+      "title": "Went to sleep Foo Fighters zoom Thomas crashed.",
+      "encounterUser": "KingVolcano",
+      "userId": 0,
+      "commentId": [
+        8,
+        15
+      ]
+    },
+    {
+      "id": 19,
+      "description": "Dreamland lost stalked. Saint lost sonic-boom sacred Cetus. Attacked beholder slime. Exploded slime Moth-Man silent flew. Disceted ectoplasim spider swam.",
+      "encType": "Paranormal",
+      "date": "2008-10-31",
+      "category": "Environmental change",
+      "lat": 39.146,
+      "lng": -96.251,
+      "title": "Implanted chip ectoplasim spoke to me upsidedown.",
+      "encounterUser": "KingVolcano",
+      "userId": 0,
+      "commentId": []
+    },
+    {
+      "id": 20,
+      "description": "Beholder glowed spoke to me. Disceted slime rainbow. Rainbow Sasquach gryphon. UFO disceted ultra terrestrials. Triangle MK Ultra flying disk. Mauled implanted chip faded giant swam grandmother.",
+      "encType": "Extraterrestrial",
+      "date": "2017-07-11",
+      "category": "Visual Sighting",
+      "lat": 40.5236,
+      "lng": -97.9399,
+      "title": "Foo Fighters Sasquach spoke to me Cetus grandmother triangle monster disceted.",
+      "encounterUser": "RusBro",
+      "userId": 5,
+      "commentId": [
+        33
+      ]
+    },
+    {
+      "id": 21,
+      "description": "Disceted drifted glowed half-man abominable snowman. Triangle alien-human half-man Thomas zombie. Triangle hybrid cigar Abrosima Thomas. Specter umbrella slow silent undead. Sacred paralized disceted attacked.",
+      "encType": "Zoological",
+      "date": "1988-04-07",
+      "category": "Environmental change",
+      "lat": 37.9008,
+      "lng": -97.6836,
+      "title": "Slime zombie nightime Pluto Thomas.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": []
+    },
+    {
+      "id": 22,
+      "description": "Disceted Saint Augustine Demi-Gorgon. Bermuda Triangle hybrid swam satyr. Sasquach Epsilon Eridani grandfather ghost. Grandfather stigmata hybrid nightime slime. Swam paralized captured. Zombie spider Unicorn exploded.",
+      "encType": "Zoological",
+      "date": "2004-08-02",
+      "category": "Environmental change",
+      "lat": 39.191,
+      "lng": -97.0439,
+      "title": "Rainbow cryptid grandfather Foo Fighters hid silent abominable snowman.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
+      "commentId": [
+        11,
+        43,
+        64
+      ]
+    },
+    {
+      "id": 23,
+      "description": "Rainbow zoom Foo Fighters. Foo Fighters monster Epsilon Eridani hid. Drifted bang Cetus UFO. Captured monster disappeared spoke to me slime. Flying saucer stalked Unicorn cryptid disceted. Spoke to me spider ran. Greeted swam Abrosima specter.",
+      "encType": "Zoological",
+      "date": "1977-12-29",
+      "category": "Physical contact",
+      "lat": 41.3648,
+      "lng": -109.796,
+      "title": "Teleported stigmata disappeared attacked me probed probed triangle attacked me.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": []
+    },
+    {
+      "id": 24,
+      "description": "Sonic-boom rainbow implanted chip nightime nightime. Abrosima went to sleep drifted paralized. Zoom Nessie animal mutilations faded giant. Saint disceted UFO Sasquach spider. Zombie cryptid flying saucer Abrosima beholder. Slime grandfather zombie grandmother grandmother.",
+      "encType": "Paranormal",
+      "date": "1998-08-24",
+      "category": "Visual Sighting",
+      "lat": 39.8896,
+      "lng": -108.2865,
+      "title": "UFO hovered paralized stigmata flying saucer probed.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": []
+    },
+    {
+      "id": 25,
+      "description": "Spider monster greeted Catherine of Genoa. Rainbow swam hybrid. Pluto zoom Augustine alien-human. Paralized upsidedown Orion Foo Fighters implanted chip. Probed faded giant slow animal mutilations.",
+      "encType": "Paranormal",
+      "date": "2015-06-23",
+      "category": "PsychoKinesis",
+      "lat": 41.9759,
+      "lng": -97.725,
+      "title": "Abrosima Cetus alien slime Sasquach hid.",
+      "encounterUser": "AstronautFrenchman",
+      "userId": 1,
+      "commentId": [
+        36
+      ]
+    },
+    {
+      "id": 26,
+      "description": "Lost Pluto Big Foot landed disappeared. Cetus stigmata slithered. Glowed went to sleep Augustine slow. Dreamland umbrella ghost monster UFO. Landed slime Augustine zombie upsidedown.",
+      "encType": "Zoological",
+      "date": "2006-12-04",
+      "category": "Environmental change",
+      "lat": 37.2987,
+      "lng": -107.5296,
+      "title": "Rainbow dead abducted Orion exploded Pluto.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
+      "commentId": [
+        25,
+        30,
+        31,
+        38
+      ]
+    },
+    {
+      "id": 27,
+      "description": "Abrosima chem trails attacked. Chem trails attacked me faded giant. Slow dreamland attacked me exploded. Sacred grandfather ectoplasim slithered. Punched bigfoot ultra terrestrials slow.",
+      "encType": "Extraterrestrial",
+      "date": "1979-09-25",
+      "category": "Physical contact",
+      "lat": 39.3572,
+      "lng": -109.008,
+      "title": "Exploded Unicorn slithered satyr Pluto sonic-boom.",
+      "encounterUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "commentId": []
+    },
+    {
+      "id": 28,
+      "description": "Dead disappeared gryphon beholder. Greeted Sasquach exploded. Silent Foo Fighters monster-human implanted chip. Stalked teleported stalked. Monster Catherine of Genoa bang. Hybrid MK Ultra half-man.",
+      "encType": "Paranormal",
+      "date": "1979-11-13",
+      "category": "Audible Sighting",
+      "lat": 40.8999,
+      "lng": -100.6348,
+      "title": "Foo Fighters umbrella punched bigfoot half-man.",
+      "encounterUser": "AstronautFrenchman",
+      "userId": 1,
+      "commentId": [
+        53,
+        67
+      ]
+    },
+    {
+      "id": 29,
+      "description": "Exploded dead Augustine animal mutilations. Sacred sonic-boom exploded exploded hid. Probed Grey exploded cryptid. Nightime greeted hybrid. Tom Cruise Abrosima beholder Pluto. UFO hybrid attacked stigmata Epsilon Eridani. Grey specter attacked me.",
+      "encType": "Extraterrestrial",
+      "date": "1974-01-20",
+      "category": "Physical contact",
+      "lat": 41.5464,
+      "lng": -102.5316,
+      "title": "Implanted chip flew dreamland room was wet Abrosima Bermuda Triangle Augustine.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": [
+        12,
+        42,
+        51,
+        58
+      ]
+    },
+    {
+      "id": 30,
+      "description": "Slithered hovered umbrella Demi-Gorgon. Zeta Reticuli rainbow ran. Demi-Gorgon exploded bang nightime room was wet. Upsidedown ectoplasim slithered greeted zoom. Faded giant monster chem trails. Abrosima Nessie Epsilon Eridani. Bang UFO Tom Cruise cryptid disceted.",
+      "encType": "Paranormal",
+      "date": "1973-06-08",
+      "category": "Environmental change",
+      "lat": 39.356,
+      "lng": -102.4676,
+      "title": "Orion flying disk exploded Nessie.",
+      "encounterUser": "ZeWizard",
+      "userId": 8,
+      "commentId": [
+        35
+      ]
+    },
+    {
+      "id": 31,
+      "description": "Animal mutilations Zeta Reticuli went to sleep silver. Zeta Reticuli hid rainbow. Ran exploded alien-human slithered chem trails. Ectoplasim Orion implanted chip. Sasquach mauled alien dreamland Grey.",
+      "encType": "Extraterrestrial",
+      "date": "2010-06-23",
+      "category": "PsychoKinesis",
+      "lat": 41.2298,
+      "lng": -104.7629,
+      "title": "Flew Augustine sonic-boom.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": []
+    },
+    {
+      "id": 32,
+      "description": "Undead silent silent flying disk. Chem trails ectoplasim Unicorn slime cryptid. Zombie stigmata ectoplasim disceted. Rainbow monster-human hybrid dreamland Orion. Flying saucer ectoplasim Catherine of Genoa chem trails.",
+      "encType": "Zoological",
+      "date": "1987-03-20",
+      "category": "Physical contact",
+      "lat": 41.2864,
+      "lng": -105.892,
+      "title": "Half-man flew paralized zoom.",
+      "encounterUser": "RusBro",
+      "userId": 5,
+      "commentId": [
+        69
+      ]
+    },
+    {
+      "id": 33,
+      "description": "Paralized silent hovered Unicorn crashed. Saint teleported ghost Zeta Reticuli. Half-man dreamland greeted floated silent. Lost zombie mauled Zeta Reticuli. Gryphon Nessie grandmother Thomas.",
+      "encType": "Zoological",
+      "date": "2003-05-31",
+      "category": "Visual Sighting",
+      "lat": 38.3488,
+      "lng": -107.0478,
+      "title": "Dreamland Zeta Reticuli zombie Big Foot spoke to me flying saucer Foo Fighters.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
+      "commentId": [
+        7,
+        48
+      ]
+    },
+    {
+      "id": 34,
+      "description": "Beholder disceted hovered silent ran. Sasquach nightime abominable snowman half-man. Sonic-boom upsidedown Abrosima Orion. Captured disappeared MK Ultra floated sonic-boom. Zombie went to sleep Bermuda Triangle.",
+      "encType": "Paranormal",
+      "date": "1973-02-05",
+      "category": "Environmental change",
+      "lat": 37.1008,
+      "lng": -101.0909,
+      "title": "Pluto Cetus.",
+      "encounterUser": "XanderThatcher",
+      "userId": 7,
+      "commentId": [
+        6,
+        63
+      ]
+    },
+    {
+      "id": 35,
+      "description": "Chem trails greeted abducted punched bigfoot. Probed Abrosima silver exploded drifted. Lost crashed spoke to me Big Foot animal mutilations. Upsidedown bang hovered faded giant. Punched bigfoot chem trails Foo Fighters silver flew. MK Ultra Sasquach Tom Cruise UFO lost. Paralized drifted Abrosima went to sleep.",
+      "encType": "Zoological",
+      "date": "2008-07-21",
+      "category": "Physical contact",
+      "lat": 37.7331,
+      "lng": -108.5036,
+      "title": "Ghost Saint satyr.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
+      "commentId": [
+        14
+      ]
+    },
+    {
+      "id": 36,
+      "description": "Zoom UFO grandmother. Specter Big Foot greeted bang Tom Cruise. Bermuda Triangle specter undead. Cryptid cryptid Abrosima stigmata beholder. Satyr spoke to me paralized disappeared Catherine of Genoa.",
+      "encType": "Extraterrestrial",
+      "date": "1999-02-16",
+      "category": "Environmental change",
+      "lat": 41.3191,
+      "lng": -104.6952,
+      "title": "Dreamland went to sleep.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
+      "commentId": [
+        54
+      ]
+    },
+    {
+      "id": 37,
+      "description": "Nightime slithered cigar. Flash Cetus Demi-Gorgon. Stalked sacred mauled silent. Teleported satyr monster. Abrosima went to sleep Thomas. Hybrid Cetus ultra terrestrials ghost Sasquach.",
+      "encType": "Paranormal",
+      "date": "1976-12-24",
+      "category": "Physical contact",
+      "lat": 41.9383,
+      "lng": -96.1014,
+      "title": "Disappeared sacred went to sleep woke up cigar.",
+      "encounterUser": "FauxHotDog",
+      "userId": 9,
+      "commentId": [
+        47
       ]
     },
     {
       "id": 38,
-      "description": "Umbrella Zeta Reticuli exploded. Went to sleep specter silver. Paralized stalked flying saucer abominable snowman floated. Slime floated exploded went to sleep triangle. Exploded Grey nightime Grey.",
-      "encType": "Zoological",
-      "date": "2019-03-17",
-      "category": "PsychoKinesis",
-      "lat": 38.0688,
-      "lng": -103.9841,
-      "title": "Implanted chip glowed gryphon monster-human Abrosima exploded Zeta Reticuli.",
-      "encounterUser": "AirmanThatcher",
+      "description": "Ran UFO disceted alien hybrid. Floated spoke to me Big Foot glowed. Glowed monster-human glowed Thomas. Moth-Man Augustine attacked me. Monster-human slithered beholder Epsilon Eridani beholder.",
+      "encType": "Paranormal",
+      "date": "1983-03-13",
+      "category": "Visual Sighting",
+      "lat": 40.6698,
+      "lng": -104.8302,
+      "title": "Augustine cryptid flew.",
+      "encounterUser": "AstronautFrenchman",
       "userId": 1,
       "commentId": []
     },
     {
       "id": 39,
-      "description": "Alien Epsilon Eridani flying saucer beholder Augustine. Slithered dreamland Demi-Gorgon. Ectoplasim punched bigfoot flying disk sonic-boom. Flash slow floated hovered probed. Slime swam Catherine of Genoa satyr punched bigfoot. Grandfather Bermuda Triangle monster.",
-      "encType": "Paranormal",
-      "date": "2007-06-13",
-      "category": "Environmental change",
-      "lat": 38.9426,
-      "lng": -104.1167,
-      "title": "Ran Demi-Gorgon monster-human captured stigmata abominable snowman slithered silent.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
+      "description": "Spider ghost Cetus. Pluto greeted chem trails. Slow implanted chip dreamland alien-human Saint. Triangle faded giant Catherine of Genoa Epsilon Eridani nightime. Demi-Gorgon monster chem trails.",
+      "encType": "Extraterrestrial",
+      "date": "1989-12-20",
+      "category": "Physical contact",
+      "lat": 38.2858,
+      "lng": -97.0821,
+      "title": "Faded giant zombie Abrosima slime implanted chip.",
+      "encounterUser": "NarwalAeyBeeSea",
+      "userId": 4,
       "commentId": [
-        4,
-        83
+        40,
+        57
       ]
     },
     {
       "id": 40,
-      "description": "Flash chem trails dreamland zombie. Flew Grey beholder. Hybrid umbrella Augustine animal mutilations. Grey hybrid swam ultra terrestrials undead. Unicorn Bermuda Triangle flew lost. Catherine of Genoa Big Foot nightime probed. Specter slow Orion Sasquach faded giant.",
-      "encType": "Zoological",
-      "date": "1981-09-22",
-      "category": "Environmental change",
-      "lat": 40.6357,
-      "lng": -96.8332,
-      "title": "Flew Nessie Tom Cruise cigar hybrid lost.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
+      "description": "Landed Cetus hybrid. Cigar alien umbrella. Zombie animal mutilations silver. Abducted slithered monster teleported UFO. Beholder Abrosima Augustine disceted. Animal mutilations chem trails Foo Fighters hovered spoke to me. Animal mutilations slow hovered probed.",
+      "encType": "Paranormal",
+      "date": "2001-08-14",
+      "category": "Visual Sighting",
+      "lat": 41.5402,
+      "lng": -108.2867,
+      "title": "Captured alien-human Foo Fighters Catherine of Genoa Tom Cruise.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
       "commentId": [
-        93
+        62
       ]
     },
     {
       "id": 41,
-      "description": "Swam swam dead half-man Orion. Zombie beholder swam specter satyr. Moth-Man alien-human umbrella. Attacked Unicorn umbrella dead. Attacked Pluto mauled. Abrosima rainbow stalked Sasquach specter. Chem trails Abrosima spider Orion room was wet.",
-      "encType": "Paranormal",
-      "date": "1992-08-26",
-      "category": "Visual Sighting",
-      "lat": 41.0141,
-      "lng": -108.8079,
-      "title": "Spoke to me Foo Fighters.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
+      "description": "Drifted Grey umbrella attacked. Probed Epsilon Eridani Abrosima. Dead sonic-boom attacked. Thomas silver satyr. Thomas zoom ectoplasim beholder. Ghost Saint Tom Cruise zombie.",
+      "encType": "Extraterrestrial",
+      "date": "2010-09-18",
+      "category": "Audible Sighting",
+      "lat": 41.5423,
+      "lng": -103.9922,
+      "title": "Ran slithered Thomas cryptid.",
+      "encounterUser": "NarwalAeyBeeSea",
+      "userId": 4,
       "commentId": [
-        19,
-        33,
-        99
+        34,
+        56,
+        65
       ]
     },
     {
       "id": 42,
-      "description": "MK Ultra implanted chip drifted cryptid. Beholder Foo Fighters slow. Floated teleported room was wet. Nightime exploded mauled. Exploded flying saucer undead stigmata. Flew Unicorn disceted lost Orion. Moth-Man dreamland slithered alien-human implanted chip.",
-      "encType": "Extraterrestrial",
-      "date": "1997-04-18",
-      "category": "Physical contact",
-      "lat": 41.7314,
-      "lng": -109.3171,
-      "title": "Nightime woke up.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
+      "description": "Glowed captured abominable snowman flying disk. Grey disceted zoom. Zoom UFO Thomas silver UFO. Hid sacred floated Unicorn. Slime MK Ultra Big Foot. Sonic-boom glowed beholder flying disk. Orion Pluto upsidedown.",
+      "encType": "Paranormal",
+      "date": "2000-03-26",
+      "category": "PsychoKinesis",
+      "lat": 37.2535,
+      "lng": -104.581,
+      "title": "Beholder attacked slithered disappeared stigmata.",
+      "encounterUser": "MonsterZe",
+      "userId": 6,
       "commentId": [
-        24,
-        27,
-        46,
-        48,
-        55,
-        71,
-        78
+        59
       ]
     },
     {
       "id": 43,
-      "description": "Sacred cryptid rainbow. UFO implanted chip glowed disceted. Went to sleep half-man UFO specter attacked. Silent half-man room was wet. Captured monster Unicorn alien. Demi-Gorgon monster-human flying saucer. Faded giant ghost upsidedown disappeared.",
-      "encType": "Extraterrestrial",
-      "date": "1976-11-28",
+      "description": "Mauled Cetus floated Unicorn. Hid Pluto went to sleep. Teleported attacked me landed Big Foot. Sonic-boom Cetus nightime. Epsilon Eridani Bermuda Triangle Augustine Pluto. Hybrid stalked zoom zombie spider.",
+      "encType": "Zoological",
+      "date": "1992-04-17",
       "category": "PsychoKinesis",
-      "lat": 39.4292,
-      "lng": -102.7354,
-      "title": "Foo Fighters swam.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
+      "lat": 38.2285,
+      "lng": -107.4892,
+      "title": "Flying saucer flew cigar crashed hid captured exploded landed.",
+      "encounterUser": "NarwalAeyBeeSea",
+      "userId": 4,
       "commentId": [
-        22,
-        41,
-        90
+        45,
+        55
       ]
     },
     {
       "id": 44,
-      "description": "Woke up flew triangle abducted. Lost bang Orion Orion. Big Foot silent lost hovered Catherine of Genoa. Attacked greeted crashed beholder exploded. UFO greeted flew. Spoke to me specter grandfather.",
+      "description": "Tom Cruise mauled abducted. Stalked probed sonic-boom chem trails. Silent landed Tom Cruise. Unicorn chem trails paralized. Ran spider half-man ectoplasim dead. Augustine spoke to me Augustine. Monster ultra terrestrials hid.",
       "encType": "Paranormal",
-      "date": "1976-06-07",
-      "category": "Audible Sighting",
-      "lat": 41.5996,
-      "lng": -100.5989,
-      "title": "Zoom landed woke up Foo Fighters.",
-      "encounterUser": "AirmanThatcher",
+      "date": "1976-05-10",
+      "category": "PsychoKinesis",
+      "lat": 40.4062,
+      "lng": -96.1537,
+      "title": "Hybrid flash.",
+      "encounterUser": "AstronautFrenchman",
       "userId": 1,
       "commentId": []
     },
     {
       "id": 45,
-      "description": "Stalked specter Abrosima silent. Ectoplasim gryphon flew. Zombie Big Foot exploded Bermuda Triangle implanted chip. Saint Cetus monster grandmother. Rainbow lost satyr Sasquach. Hid Nessie hid. Swam hybrid glowed disceted.",
+      "description": "Stalked half-man animal mutilations probed teleported. Unicorn alien Bermuda Triangle. Landed Zeta Reticuli hovered. Punched bigfoot Tom Cruise MK Ultra attacked me. Cigar bang Thomas flying saucer zombie. Abrosima implanted chip alien-human grandfather faded giant. Rainbow ghost beholder abominable snowman.",
       "encType": "Paranormal",
-      "date": "1985-09-14",
-      "category": "Physical contact",
-      "lat": 40.3089,
-      "lng": -102.7334,
-      "title": "Thomas gryphon animal mutilations undead upsidedown umbrella silver.",
-      "encounterUser": "DestoryerParker",
-      "userId": 0,
+      "date": "1999-08-18",
+      "category": "Visual Sighting",
+      "lat": 40.6949,
+      "lng": -99.0636,
+      "title": "Teleported abducted Cetus.",
+      "encounterUser": "NarwalAeyBeeSea",
+      "userId": 4,
       "commentId": [
-        84
+        0,
+        39,
+        68
       ]
     },
     {
       "id": 46,
-      "description": "Exploded stigmata Sasquach glowed. Alien silent chem trails. Rainbow greeted went to sleep umbrella swam. Abrosima disceted room was wet. Drifted animal mutilations animal mutilations cryptid punched bigfoot.",
-      "encType": "Paranormal",
-      "date": "1973-06-26",
-      "category": "Audible Sighting",
-      "lat": 38.3747,
-      "lng": -97.0551,
-      "title": "Monster-human exploded alien zoom swam flash.",
-      "encounterUser": "WizardDog",
-      "userId": 4,
+      "description": "Hybrid crashed Thomas stigmata grandmother. Monster-human exploded attacked cigar dead. Cetus monster-human gryphon. Drifted dead UFO silver Foo Fighters. Augustine MK Ultra disceted.",
+      "encType": "Zoological",
+      "date": "2008-07-16",
+      "category": "PsychoKinesis",
+      "lat": 37.2078,
+      "lng": -96.9057,
+      "title": "Half-man chem trails.",
+      "encounterUser": "AlonzoZion",
+      "userId": 2,
       "commentId": [
-        6
+        1,
+        13,
+        32
       ]
     },
     {
       "id": 47,
-      "description": "Beholder attacked me flew. Abrosima room was wet abducted disceted. Animal mutilations Grey lost grandmother nightime. Abominable snowman Epsilon Eridani spoke to me. Hid Catherine of Genoa specter. Swam Catherine of Genoa drifted Bermuda Triangle.",
-      "encType": "Extraterrestrial",
-      "date": "1993-07-22",
-      "category": "Environmental change",
-      "lat": 39.1169,
-      "lng": -96.5456,
-      "title": "Tom Cruise bang.",
-      "encounterUser": "AirmanThatcher",
+      "description": "Mauled zombie exploded. Alien slithered attacked me Grey. Bermuda Triangle attacked me attacked spider. Room was wet Grey flying saucer MK Ultra. Lost disceted cryptid Augustine disappeared. Triangle upsidedown Pluto. Abrosima ultra terrestrials sonic-boom.",
+      "encType": "Paranormal",
+      "date": "1987-06-24",
+      "category": "Visual Sighting",
+      "lat": 38.2554,
+      "lng": -109.6657,
+      "title": "Sasquach nightime ultra terrestrials greeted slow glowed.",
+      "encounterUser": "AstronautFrenchman",
       "userId": 1,
       "commentId": [
-        23
+        16,
+        19,
+        50
       ]
     },
     {
       "id": 48,
-      "description": "Nessie cryptid grandfather. Ghost Sasquach exploded alien. Stalked sonic-boom specter crashed. Animal mutilations grandfather zoom dead Grey. Attacked flew grandmother teleported attacked. Teleported exploded crashed Unicorn upsidedown.",
+      "description": "Cigar attacked me attacked. Slow dreamland Cetus Thomas Catherine of Genoa. Attacked me lost MK Ultra floated exploded. Spoke to me greeted Cetus Unicorn. Nessie upsidedown grandmother cigar silent. Exploded attacked ghost. Flying disk glowed umbrella Grey hid.",
       "encType": "Paranormal",
-      "date": "1996-07-19",
-      "category": "Visual Sighting",
-      "lat": 37.5096,
-      "lng": -101.5197,
-      "title": "Hybrid chem trails alien attacked me spoke to me glowed.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
+      "date": "1986-07-29",
+      "category": "Physical contact",
+      "lat": 40.1849,
+      "lng": -101.6273,
+      "title": "Moth-Man Foo Fighters exploded grandmother spoke to me silver sacred.",
+      "encounterUser": "DestoryerMaggie",
+      "userId": 3,
       "commentId": [
-        0
+        20,
+        49,
+        66
       ]
     },
     {
       "id": 49,
-      "description": "Silver drifted Pluto. Upsidedown zoom abominable snowman sonic-boom rainbow. Landed dreamland ectoplasim zombie Pluto. Nessie Foo Fighters ghost. Disappeared ectoplasim gryphon. Tom Cruise sonic-boom half-man disappeared satyr. Upsidedown flying disk zombie.",
-      "encType": "Zoological",
-      "date": "2009-10-13",
-      "category": "Environmental change",
-      "lat": 41.0663,
-      "lng": -108.0072,
-      "title": "Bermuda Triangle floated ultra terrestrials triangle teleported probed.",
-      "encounterUser": "FrenchmanMedusa",
-      "userId": 2,
+      "description": "Pluto flying disk cryptid drifted. Bermuda Triangle Tom Cruise glowed went to sleep probed. Flying disk monster triangle crashed disappeared. Dreamland sacred Augustine crashed. Lost abducted floated. Bermuda Triangle slime beholder.",
+      "encType": "Extraterrestrial",
+      "date": "1978-02-11",
+      "category": "PsychoKinesis",
+      "lat": 37.0545,
+      "lng": -98.3609,
+      "title": "Alien-human stalked zoom flash Unicorn went to sleep room was wet Abrosima.",
+      "encounterUser": "KingVolcano",
+      "userId": 0,
       "commentId": [
         2,
-        8
+        60
       ]
     }
   ],
   "comments": [
     {
       "id": 0,
-      "commentText": "Cigar grandfather umbrella ectoplasim Big Foot. Glowed Moth-Man Epsilon Eridani Demi-Gorgon.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 48
-    },
-    {
-      "id": 1,
-      "commentText": "Cryptid captured alien-human greeted abducted. Spoke to me disappeared Epsilon Eridani.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 35
-    },
-    {
-      "id": 2,
-      "commentText": "Disceted beholder rainbow Foo Fighters Zeta Reticuli. Went to sleep grandfather silent Moth-Man.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 49
-    },
-    {
-      "id": 3,
-      "commentText": "Silver silent attacked woke up. Woke up animal mutilations spoke to me stalked silent.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 17
-    },
-    {
-      "id": 4,
-      "commentText": "Epsilon Eridani sacred paralized. Grey landed ultra terrestrials.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 39
-    },
-    {
-      "id": 5,
-      "commentText": "Zoom UFO Thomas. Foo Fighters flying disk alien-human went to sleep.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 5
-    },
-    {
-      "id": 6,
-      "commentText": "Specter Bermuda Triangle Moth-Man Demi-Gorgon monster-human. Disceted Abrosima implanted chip. Slithered triangle exploded abducted.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 46
-    },
-    {
-      "id": 7,
-      "commentText": "Captured crashed paralized abducted slime. Ectoplasim drifted spider paralized. Monster sonic-boom Nessie disappeared Pluto.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 7
-    },
-    {
-      "id": 8,
-      "commentText": "MK Ultra stigmata captured Cetus UFO. Grey ran Cetus paralized cigar. Implanted chip room was wet crashed landed Orion.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 49
-    },
-    {
-      "id": 9,
-      "commentText": "Abominable snowman silver bang UFO Grey. Teleported teleported UFO. Thomas implanted chip flying disk. Lost Orion gryphon Orion.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 27
-    },
-    {
-      "id": 10,
-      "commentText": "Hybrid dreamland probed Catherine of Genoa. Mauled implanted chip flew Demi-Gorgon. Grandmother chem trails woke up grandfather satyr.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 17
-    },
-    {
-      "id": 11,
-      "commentText": "Spoke to me ultra terrestrials upsidedown glowed lost. Spoke to me grandmother punched bigfoot. Grey cigar mauled attacked me. Crashed Zeta Reticuli gryphon bang lost.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 27
-    },
-    {
-      "id": 12,
-      "commentText": "Spoke to me punched bigfoot abducted. Abominable snowman stigmata faded giant ultra terrestrials ran. Flying disk undead drifted.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 16
-    },
-    {
-      "id": 13,
-      "commentText": "Half-man dreamland grandfather. Thomas Abrosima Thomas. Spider dreamland exploded Nessie.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 19
-    },
-    {
-      "id": 14,
-      "commentText": "Moth-Man flash slime flying saucer. UFO Moth-Man undead chem trails. Unicorn slime alien.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 32
-    },
-    {
-      "id": 15,
-      "commentText": "Zoom Saint spider. Lost silent Unicorn slow.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 29
-    },
-    {
-      "id": 16,
-      "commentText": "Demi-Gorgon Nessie Sasquach exploded. Bermuda Triangle Thomas Orion. Room was wet MK Ultra Nessie.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 1
-    },
-    {
-      "id": 17,
-      "commentText": "Grandfather flash chem trails Nessie. Implanted chip Moth-Man faded giant.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 17
-    },
-    {
-      "id": 18,
-      "commentText": "Specter monster-human mauled slime Abrosima. Landed stalked flying saucer greeted. Animal mutilations Big Foot nightime umbrella.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 25
-    },
-    {
-      "id": 19,
-      "commentText": "Ectoplasim Grey zombie. Chem trails hid beholder Grey.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 41
-    },
-    {
-      "id": 20,
-      "commentText": "Grey Unicorn specter. Slime chem trails ectoplasim disceted Demi-Gorgon. Zombie Nessie went to sleep silent.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 29
-    },
-    {
-      "id": 21,
-      "commentText": "Drifted Abrosima greeted. Slime monster-human woke up. Big Foot cryptid crashed. Woke up UFO Grey animal mutilations.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 24
-    },
-    {
-      "id": 22,
-      "commentText": "Ghost Catherine of Genoa Pluto flying disk. Flying saucer hovered paralized MK Ultra Orion. Demi-Gorgon triangle flew alien-human. UFO greeted cryptid swam swam.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 43
-    },
-    {
-      "id": 23,
-      "commentText": "Abducted nightime zombie. Unicorn dead Grey. Floated attacked me ultra terrestrials.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 47
-    },
-    {
-      "id": 24,
-      "commentText": "UFO Moth-Man silent floated. Rainbow rainbow ectoplasim grandfather exploded.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 42
-    },
-    {
-      "id": 25,
-      "commentText": "Implanted chip mauled exploded. Augustine Nessie abducted flew dead. Gryphon hid stalked.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 28
-    },
-    {
-      "id": 26,
-      "commentText": "Abducted glowed landed silver spoke to me. Foo Fighters dead flash grandfather.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 25
-    },
-    {
-      "id": 27,
-      "commentText": "Teleported UFO Grey nightime zoom. Thomas beholder gryphon Pluto Moth-Man. Zombie paralized slow. Abducted Zeta Reticuli slithered.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 42
-    },
-    {
-      "id": 28,
-      "commentText": "Gryphon satyr bang. Ghost probed Bermuda Triangle sacred stigmata. Cryptid flying saucer satyr.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 27
-    },
-    {
-      "id": 29,
-      "commentText": "Stigmata umbrella grandfather attacked me lost. Alien sonic-boom exploded hid. Woke up Bermuda Triangle monster-human. Crashed zombie abducted.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 21
-    },
-    {
-      "id": 30,
-      "commentText": "Floated umbrella grandfather. Rainbow upsidedown spider half-man. Flying saucer monster probed cryptid exploded.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 29
-    },
-    {
-      "id": 31,
-      "commentText": "Triangle grandmother punched bigfoot triangle. Bermuda Triangle zoom attacked me exploded cryptid.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 1
-    },
-    {
-      "id": 32,
-      "commentText": "Probed ultra terrestrials swam flying disk. Demi-Gorgon UFO Cetus attacked me.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 16
-    },
-    {
-      "id": 33,
-      "commentText": "Tom Cruise disceted silent hid ultra terrestrials. Pluto crashed attacked slow. Hovered Abrosima Unicorn Bermuda Triangle silent.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 41
-    },
-    {
-      "id": 34,
-      "commentText": "Moth-Man disceted room was wet silver. Alien-human Bermuda Triangle abducted alien umbrella. Teleported Thomas bang.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 17
-    },
-    {
-      "id": 35,
-      "commentText": "Nessie Cetus cigar attacked me umbrella. Captured greeted ultra terrestrials exploded floated. Flying saucer Saint half-man.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 7
-    },
-    {
-      "id": 36,
-      "commentText": "Zoom alien-human Augustine spider. Swam silver paralized umbrella flying disk. Attacked Foo Fighters disappeared. Stalked nightime Sasquach.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 14
-    },
-    {
-      "id": 37,
-      "commentText": "Slime floated Moth-Man. Cryptid exploded hovered ultra terrestrials. Floated flash Unicorn Abrosima Nessie.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 13
-    },
-    {
-      "id": 38,
-      "commentText": "Lost lost rainbow monster umbrella. Implanted chip ghost silent Unicorn Thomas. Unicorn silver undead. Saint UFO alien-human animal mutilations Epsilon Eridani.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 24
-    },
-    {
-      "id": 39,
-      "commentText": "Slithered satyr monster cigar zombie. Floated hovered gryphon Pluto specter. Went to sleep half-man slithered flying saucer Foo Fighters.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 11
-    },
-    {
-      "id": 40,
-      "commentText": "Drifted sonic-boom exploded monster-human. Probed disceted undead Sasquach.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 0
-    },
-    {
-      "id": 41,
-      "commentText": "Implanted chip spoke to me glowed undead ultra terrestrials. Thomas triangle Grey floated. Hybrid flash ectoplasim went to sleep. Zoom monster-human Zeta Reticuli zombie.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 43
-    },
-    {
-      "id": 42,
-      "commentText": "Beholder spider Cetus zoom ectoplasim. Animal mutilations beholder Big Foot gryphon Big Foot. Faded giant Zeta Reticuli attacked me dreamland Catherine of Genoa.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 15
-    },
-    {
-      "id": 43,
-      "commentText": "Slithered nightime rainbow went to sleep went to sleep. Dreamland flying saucer monster.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 6
-    },
-    {
-      "id": 44,
-      "commentText": "Unicorn landed Thomas Epsilon Eridani chem trails. Epsilon Eridani crashed dreamland. Silver hid stalked abducted.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 37
-    },
-    {
-      "id": 45,
-      "commentText": "Rainbow Foo Fighters ultra terrestrials abducted flew. Zoom grandfather upsidedown Nessie. Upsidedown Saint slime.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 21
-    },
-    {
-      "id": 46,
-      "commentText": "Specter nightime flash zombie Moth-Man. Moth-Man Moth-Man Sasquach cryptid.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 42
-    },
-    {
-      "id": 47,
-      "commentText": "Foo Fighters probed hybrid triangle. Exploded exploded Thomas faded giant. Ghost grandfather drifted Big Foot. Bang crashed Grey.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 25
-    },
-    {
-      "id": 48,
-      "commentText": "Gryphon flying disk Nessie Thomas sonic-boom. Zombie probed Saint lost attacked.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 42
-    },
-    {
-      "id": 49,
-      "commentText": "Ghost Grey swam. Gryphon flew cigar faded giant. Sasquach zoom Orion Epsilon Eridani. Triangle cigar undead spoke to me.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 0
-    },
-    {
-      "id": 50,
-      "commentText": "MK Ultra Thomas Grey. Rainbow alien-human Big Foot flying saucer. Floated sacred satyr Moth-Man.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 24
-    },
-    {
-      "id": 51,
-      "commentText": "Saint upsidedown alien. Bermuda Triangle went to sleep spoke to me stigmata. Hovered paralized Catherine of Genoa Moth-Man.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 25
-    },
-    {
-      "id": 52,
-      "commentText": "Disceted gryphon flying saucer. Rainbow hovered rainbow upsidedown.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 36
-    },
-    {
-      "id": 53,
-      "commentText": "Swam slithered stalked. Orion flying disk punched bigfoot probed.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 17
-    },
-    {
-      "id": 54,
-      "commentText": "Grandfather monster-human satyr paralized. Rainbow Epsilon Eridani Saint rainbow captured. Crashed Catherine of Genoa disceted. Hybrid disappeared flash.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 13
-    },
-    {
-      "id": 55,
-      "commentText": "Slime zombie slow. Flew silent exploded monster. Gryphon Big Foot grandfather.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 42
-    },
-    {
-      "id": 56,
-      "commentText": "Drifted abominable snowman zoom hid. Hid Foo Fighters faded giant. Zoom dreamland nightime spoke to me.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 22
-    },
-    {
-      "id": 57,
-      "commentText": "Zoom slime monster. Catherine of Genoa landed ultra terrestrials paralized probed. Stigmata ultra terrestrials Thomas.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 17
-    },
-    {
-      "id": 58,
-      "commentText": "Bang slithered attacked me abducted. Attacked me rainbow glowed. Attacked chem trails greeted Moth-Man.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 6
-    },
-    {
-      "id": 59,
-      "commentText": "Demi-Gorgon Tom Cruise punched bigfoot. Dead Tom Cruise swam monster.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 6
-    },
-    {
-      "id": 60,
-      "commentText": "Rainbow half-man grandmother room was wet satyr. Stalked swam probed Thomas flash.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 9
-    },
-    {
-      "id": 61,
-      "commentText": "Big Foot ectoplasim Unicorn grandfather captured. Upsidedown monster-human paralized Unicorn Bermuda Triangle.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 15
-    },
-    {
-      "id": 62,
-      "commentText": "Alien-human Thomas Demi-Gorgon Augustine UFO. Hid ectoplasim disceted dead Moth-Man. Rainbow went to sleep Orion MK Ultra. Flying disk Moth-Man flying saucer half-man Sasquach.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 1
-    },
-    {
-      "id": 63,
-      "commentText": "Moth-Man slime flash Unicorn. Crashed cryptid Zeta Reticuli silent slithered. Grey spoke to me exploded slime hovered. Floated stigmata Unicorn.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 1
-    },
-    {
-      "id": 64,
-      "commentText": "Rainbow grandmother specter cryptid Demi-Gorgon. Dreamland MK Ultra exploded Augustine. Ghost beholder triangle exploded hid. Alien cigar UFO bang probed.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 22
-    },
-    {
-      "id": 65,
-      "commentText": "Unicorn slow alien Foo Fighters upsidedown. Rainbow abominable snowman Zeta Reticuli woke up flying saucer. Slow disappeared cryptid exploded.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 31
-    },
-    {
-      "id": 66,
-      "commentText": "Cetus Epsilon Eridani half-man flying disk. Ultra terrestrials floated implanted chip zoom. Undead zombie slithered.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 0
-    },
-    {
-      "id": 67,
-      "commentText": "Stalked Thomas slithered UFO. Foo Fighters cigar flew Epsilon Eridani went to sleep. Thomas stigmata woke up abominable snowman Moth-Man.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 33
-    },
-    {
-      "id": 68,
-      "commentText": "Nightime ghost Nessie Tom Cruise implanted chip. Foo Fighters Unicorn satyr silver. Big Foot lost stalked umbrella Sasquach.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 2
-    },
-    {
-      "id": 69,
-      "commentText": "Stigmata flying saucer greeted. Landed exploded greeted woke up. Umbrella Orion flew umbrella UFO.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 26
-    },
-    {
-      "id": 70,
-      "commentText": "Cryptid flying saucer slithered alien triangle. Monster-human punched bigfoot hid glowed. Bermuda Triangle undead mauled.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 29
-    },
-    {
-      "id": 71,
-      "commentText": "Faded giant woke up slow. Bermuda Triangle attacked cigar teleported. Attacked spider slow bang. Ultra terrestrials cryptid flash.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 42
-    },
-    {
-      "id": 72,
-      "commentText": "Spider crashed abducted paralized. Specter flying saucer disappeared landed satyr. UFO attacked faded giant flying saucer. Implanted chip zoom greeted lost Catherine of Genoa.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 29
-    },
-    {
-      "id": 73,
-      "commentText": "Exploded specter attacked me. Tom Cruise Nessie ghost.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 15
-    },
-    {
-      "id": 74,
-      "commentText": "Ran alien-human Big Foot. Bang Augustine punched bigfoot. Big Foot Foo Fighters Saint. Silent Moth-Man gryphon grandfather Thomas.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 30
-    },
-    {
-      "id": 75,
-      "commentText": "Grandmother implanted chip paralized ectoplasim. Captured silent Bermuda Triangle flew beholder. Hybrid Bermuda Triangle mauled faded giant Moth-Man.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 30
-    },
-    {
-      "id": 76,
-      "commentText": "Foo Fighters abominable snowman flew monster. Glowed paralized exploded flash Tom Cruise. Cryptid Augustine upsidedown rainbow. Landed Tom Cruise cigar stigmata stigmata.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 21
-    },
-    {
-      "id": 77,
-      "commentText": "Faded giant silver half-man. Teleported Tom Cruise teleported half-man woke up.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 33
-    },
-    {
-      "id": 78,
-      "commentText": "Landed glowed triangle animal mutilations. Flash bang sonic-boom paralized stigmata. Orion UFO abducted. Woke up drifted bang hovered MK Ultra.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 42
-    },
-    {
-      "id": 79,
-      "commentText": "Crashed probed disappeared Big Foot. Orion Moth-Man Grey.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 35
-    },
-    {
-      "id": 80,
-      "commentText": "Glowed Sasquach stalked. Thomas Tom Cruise Zeta Reticuli abominable snowman. Lost Sasquach faded giant attacked me. Flying disk grandfather stalked Moth-Man.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 5
-    },
-    {
-      "id": 81,
-      "commentText": "Stalked rainbow Nessie slow Foo Fighters. Hybrid monster-human bang.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 37
-    },
-    {
-      "id": 82,
-      "commentText": "Paralized Thomas specter. Unicorn Thomas slow. Mauled Catherine of Genoa implanted chip. Cetus went to sleep Orion.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 12
-    },
-    {
-      "id": 83,
-      "commentText": "Alien slow implanted chip Demi-Gorgon. Upsidedown umbrella ultra terrestrials glowed greeted. Punched bigfoot probed undead Unicorn. Sacred Bermuda Triangle Abrosima.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 39
-    },
-    {
-      "id": 84,
-      "commentText": "Zeta Reticuli specter zombie. Augustine spoke to me Nessie.",
-      "commentUser": "FrenchmanMedusa",
+      "commentText": "Big Foot captured hovered ectoplasim spoke to me. Grandfather hid Moth-Man. Glowed slithered Epsilon Eridani. Captured zombie swam.",
+      "commentUser": "AlonzoZion",
       "userId": 2,
       "encounterId": 45
     },
     {
-      "id": 85,
-      "commentText": "Exploded MK Ultra umbrella Catherine of Genoa flying disk. Big Foot flying disk zoom triangle attacked. Abominable snowman dreamland Thomas grandfather satyr. Abducted undead went to sleep.",
-      "commentUser": "AirmanThatcher",
+      "id": 1,
+      "commentText": "Landed flew cryptid. Bermuda Triangle ran went to sleep. Satyr stigmata Grey.",
+      "commentUser": "AlonzoZion",
+      "userId": 2,
+      "encounterId": 46
+    },
+    {
+      "id": 2,
+      "commentText": "Half-man captured faded giant attacked me. Abducted Foo Fighters cryptid landed.",
+      "commentUser": "AstronautFrenchman",
       "userId": 1,
+      "encounterId": 49
+    },
+    {
+      "id": 3,
+      "commentText": "Flew Nessie ghost. Ectoplasim flash silent cigar. Umbrella abducted Demi-Gorgon umbrella. MK Ultra abducted ectoplasim.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
       "encounterId": 6
     },
     {
-      "id": 86,
-      "commentText": "Triangle Zeta Reticuli slithered implanted chip. Swam silent nightime hid.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 26
+      "id": 4,
+      "commentText": "Stalked implanted chip Grey. Ectoplasim silent abducted UFO. Alien sacred satyr mauled undead.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 15
     },
     {
-      "id": 87,
-      "commentText": "Moth-Man Grey punched bigfoot. Zoom swam slime. Slime disceted umbrella attacked me zoom.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 28
+      "id": 5,
+      "commentText": "Implanted chip Epsilon Eridani satyr dreamland. Alien chem trails slithered teleported monster.",
+      "commentUser": "FauxHotDog",
+      "userId": 9,
+      "encounterId": 4
     },
     {
-      "id": 88,
-      "commentText": "Probed Demi-Gorgon Bermuda Triangle. Silver attacked me faded giant.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 19
-    },
-    {
-      "id": 89,
-      "commentText": "Went to sleep floated sonic-boom exploded. Rainbow exploded gryphon exploded swam.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 5
-    },
-    {
-      "id": 90,
-      "commentText": "Abominable snowman abducted nightime gryphon. Greeted paralized Thomas abducted slow. Ran ran hybrid disappeared. Zombie mauled teleported floated Abrosima.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 43
-    },
-    {
-      "id": 91,
-      "commentText": "Hybrid alien-human drifted. Epsilon Eridani Catherine of Genoa half-man grandfather. Catherine of Genoa flew cryptid greeted.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 19
-    },
-    {
-      "id": 92,
-      "commentText": "Chem trails cryptid Unicorn flash Big Foot. Hybrid swam zombie hid.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 0
-    },
-    {
-      "id": 93,
-      "commentText": "Satyr Zeta Reticuli probed disceted Orion. Umbrella triangle Epsilon Eridani. Zoom punched bigfoot Tom Cruise. Undead grandfather Thomas.",
-      "commentUser": "FrenchmanMedusa",
-      "userId": 2,
-      "encounterId": 40
-    },
-    {
-      "id": 94,
-      "commentText": "Spider UFO hybrid. Nessie spider Bermuda Triangle captured room was wet. Greeted monster-human Sasquach. Slithered cryptid slow.",
-      "commentUser": "WizardDog",
-      "userId": 4,
-      "encounterId": 14
-    },
-    {
-      "id": 95,
-      "commentText": "Beholder room was wet animal mutilations cryptid. Nessie stalked Foo Fighters Augustine.",
-      "commentUser": "GraceSarah",
-      "userId": 3,
-      "encounterId": 14
-    },
-    {
-      "id": 96,
-      "commentText": "Cetus paralized alien half-man. Saint monster-human Unicorn lost. Pluto hovered glowed attacked me flash.",
-      "commentUser": "AirmanThatcher",
-      "userId": 1,
-      "encounterId": 29
-    },
-    {
-      "id": 97,
-      "commentText": "Upsidedown attacked UFO. Catherine of Genoa crashed Pluto dreamland. Bang sacred triangle ghost. Stalked Foo Fighters flash glowed.",
-      "commentUser": "DestoryerParker",
+      "id": 6,
+      "commentText": "Dead Cetus cigar. Room was wet disceted sonic-boom.",
+      "commentUser": "KingVolcano",
       "userId": 0,
+      "encounterId": 34
+    },
+    {
+      "id": 7,
+      "commentText": "Disappeared dreamland slime. Grandfather Tom Cruise triangle disappeared.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
+      "encounterId": 33
+    },
+    {
+      "id": 8,
+      "commentText": "Bermuda Triangle swam Nessie ghost dreamland. Cryptid exploded alien-human Moth-Man went to sleep. Drifted went to sleep disappeared went to sleep.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
+      "encounterId": 18
+    },
+    {
+      "id": 9,
+      "commentText": "Upsidedown ectoplasim implanted chip. Bang silent grandmother. Zombie Nessie bang.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
       "encounterId": 9
     },
     {
-      "id": 98,
-      "commentText": "Implanted chip attacked me Grey gryphon alien. Room was wet chem trails MK Ultra alien. Augustine abominable snowman slithered.",
-      "commentUser": "DestoryerParker",
-      "userId": 0,
-      "encounterId": 7
+      "id": 10,
+      "commentText": "Catherine of Genoa teleported dead flying disk hovered. Abducted ran grandfather Unicorn. Teleported alien-human hovered.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 10
     },
     {
-      "id": 99,
-      "commentText": "Disappeared dead bang hybrid exploded. Cetus umbrella greeted.",
-      "commentUser": "FrenchmanMedusa",
+      "id": 11,
+      "commentText": "Punched bigfoot grandmother Thomas stalked. Flew punched bigfoot silver spoke to me.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 22
+    },
+    {
+      "id": 12,
+      "commentText": "Bang Saint slow. Faded giant Unicorn bang exploded abominable snowman. Grandfather captured undead. UFO upsidedown undead.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 29
+    },
+    {
+      "id": 13,
+      "commentText": "Undead captured chem trails hovered. Attacked Cetus landed stigmata flying disk.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 46
+    },
+    {
+      "id": 14,
+      "commentText": "MK Ultra nightime Unicorn. Captured abducted Demi-Gorgon. Sacred dead punched bigfoot spider. Flying saucer Sasquach ultra terrestrials.",
+      "commentUser": "FauxHotDog",
+      "userId": 9,
+      "encounterId": 35
+    },
+    {
+      "id": 15,
+      "commentText": "Tom Cruise spider went to sleep monster punched bigfoot. Stalked floated flew Zeta Reticuli. Stigmata flew rainbow beholder. UFO crashed disappeared.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 18
+    },
+    {
+      "id": 16,
+      "commentText": "Dead Tom Cruise half-man. Hid beholder cryptid MK Ultra.",
+      "commentUser": "FauxHotDog",
+      "userId": 9,
+      "encounterId": 47
+    },
+    {
+      "id": 17,
+      "commentText": "Half-man Grey silver attacked. Abrosima paralized MK Ultra. Ghost Thomas went to sleep. Landed Grey Moth-Man hid Moth-Man.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 0
+    },
+    {
+      "id": 18,
+      "commentText": "Half-man ran Orion. Ran alien-human Unicorn paralized flying disk.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 14
+    },
+    {
+      "id": 19,
+      "commentText": "Saint UFO abducted. Hid sonic-boom Cetus.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
+      "encounterId": 47
+    },
+    {
+      "id": 20,
+      "commentText": "Mauled grandmother silent Foo Fighters Pluto. Abducted monster captured teleported. Unicorn specter flying saucer.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 48
+    },
+    {
+      "id": 21,
+      "commentText": "Tom Cruise dead exploded captured. Ectoplasim faded giant Bermuda Triangle disappeared flying saucer.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 12
+    },
+    {
+      "id": 22,
+      "commentText": "Faded giant satyr Abrosima upsidedown. Zeta Reticuli Zeta Reticuli grandmother greeted chem trails.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 11
+    },
+    {
+      "id": 23,
+      "commentText": "Disappeared attacked probed. Teleported swam undead ultra terrestrials.",
+      "commentUser": "AlonzoZion",
       "userId": 2,
+      "encounterId": 14
+    },
+    {
+      "id": 24,
+      "commentText": "Cetus Saint probed dreamland. Punched bigfoot monster-human disappeared grandmother Cetus. Spoke to me disappeared stalked. Alien ran grandfather zoom Demi-Gorgon.",
+      "commentUser": "DestoryerMaggie",
+      "userId": 3,
+      "encounterId": 6
+    },
+    {
+      "id": 25,
+      "commentText": "Alien-human Catherine of Genoa drifted beholder. Flew dead Unicorn triangle attacked me.",
+      "commentUser": "AlonzoZion",
+      "userId": 2,
+      "encounterId": 26
+    },
+    {
+      "id": 26,
+      "commentText": "Stigmata Moth-Man grandfather. Disappeared dreamland Sasquach umbrella Saint. Cryptid disappeared zoom undead sacred.",
+      "commentUser": "AlonzoZion",
+      "userId": 2,
+      "encounterId": 9
+    },
+    {
+      "id": 27,
+      "commentText": "Probed spoke to me room was wet cryptid. Demi-Gorgon flew exploded ectoplasim.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
+      "encounterId": 15
+    },
+    {
+      "id": 28,
+      "commentText": "Greeted captured Epsilon Eridani ultra terrestrials. Punched bigfoot spider Cetus beholder. Umbrella ran drifted. Stigmata bang Tom Cruise.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 2
+    },
+    {
+      "id": 29,
+      "commentText": "Silent specter room was wet. Zombie spider drifted Orion attacked. Drifted spoke to me stalked. Grandmother specter Cetus Pluto grandfather.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 3
+    },
+    {
+      "id": 30,
+      "commentText": "Drifted Catherine of Genoa abducted Thomas. Catherine of Genoa satyr half-man Cetus silver.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 26
+    },
+    {
+      "id": 31,
+      "commentText": "Augustine greeted cryptid Sasquach monster-human. Satyr lost sonic-boom hybrid sacred.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 26
+    },
+    {
+      "id": 32,
+      "commentText": "Captured slime specter ultra terrestrials stigmata. Stigmata Saint silent spoke to me dreamland. Flying saucer cigar slow cryptid lost.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 46
+    },
+    {
+      "id": 33,
+      "commentText": "Half-man beholder slithered umbrella. Drifted Tom Cruise beholder probed. Room was wet ran paralized. Stigmata MK Ultra probed ran.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 20
+    },
+    {
+      "id": 34,
+      "commentText": "Abrosima upsidedown slime Demi-Gorgon punched bigfoot. Foo Fighters ran cigar cryptid lost. Sonic-boom slithered Unicorn ultra terrestrials implanted chip. Nightime triangle attacked me abducted Catherine of Genoa.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
       "encounterId": 41
+    },
+    {
+      "id": 35,
+      "commentText": "Umbrella ultra terrestrials flying saucer Sasquach. Upsidedown exploded dreamland zombie umbrella. Teleported exploded Epsilon Eridani flash Epsilon Eridani. Thomas Demi-Gorgon grandfather Cetus.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 30
+    },
+    {
+      "id": 36,
+      "commentText": "Nightime attacked slime alien. Epsilon Eridani glowed ghost alien. Animal mutilations floated faded giant Moth-Man. Tom Cruise paralized flying disk half-man.",
+      "commentUser": "ZeWizard",
+      "userId": 8,
+      "encounterId": 25
+    },
+    {
+      "id": 37,
+      "commentText": "Orion hid Cetus. Epsilon Eridani satyr grandfather spoke to me. Abominable snowman slow flash. Dreamland Demi-Gorgon animal mutilations disceted.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 3
+    },
+    {
+      "id": 38,
+      "commentText": "Half-man ghost UFO. Grandmother glowed Demi-Gorgon teleported dead. Monster-human abominable snowman satyr disceted. Exploded attacked teleported spider.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 26
+    },
+    {
+      "id": 39,
+      "commentText": "Flew alien-human slithered Pluto mauled. Nightime upsidedown abducted. Exploded Foo Fighters faded giant gryphon.",
+      "commentUser": "FauxHotDog",
+      "userId": 9,
+      "encounterId": 45
+    },
+    {
+      "id": 40,
+      "commentText": "Lost ghost mauled. Drifted cigar lost crashed landed. Sasquach undead disceted upsidedown.",
+      "commentUser": "AlonzoZion",
+      "userId": 2,
+      "encounterId": 39
+    },
+    {
+      "id": 41,
+      "commentText": "Abrosima flew attacked went to sleep ultra terrestrials. Woke up woke up Nessie dreamland sacred. Teleported rainbow gryphon.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 14
+    },
+    {
+      "id": 42,
+      "commentText": "Zoom Thomas Thomas half-man. Slithered grandfather triangle lost stalked. Probed beholder Bermuda Triangle beholder. Flash woke up zombie.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 29
+    },
+    {
+      "id": 43,
+      "commentText": "Spoke to me dead exploded. Flying saucer ran UFO Bermuda Triangle captured. Disappeared landed monster-human upsidedown. Animal mutilations specter hybrid.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 22
+    },
+    {
+      "id": 44,
+      "commentText": "Epsilon Eridani floated drifted beholder. Thomas faded giant ultra terrestrials floated slithered. Demi-Gorgon sonic-boom exploded. Catherine of Genoa cigar punched bigfoot Tom Cruise.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 11
+    },
+    {
+      "id": 45,
+      "commentText": "Bermuda Triangle Foo Fighters chem trails Tom Cruise. Cryptid Orion Grey.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 43
+    },
+    {
+      "id": 46,
+      "commentText": "Sonic-boom triangle Sasquach slithered Sasquach. Nightime spider ran grandfather abducted.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 13
+    },
+    {
+      "id": 47,
+      "commentText": "Unicorn Saint Unicorn rainbow. Bermuda Triangle stigmata spoke to me Big Foot Zeta Reticuli. Cigar Nessie zoom. Zoom drifted silver alien exploded.",
+      "commentUser": "AlonzoZion",
+      "userId": 2,
+      "encounterId": 37
+    },
+    {
+      "id": 48,
+      "commentText": "Triangle ultra terrestrials disceted UFO. Undead Demi-Gorgon floated. Dreamland abominable snowman Zeta Reticuli sacred Catherine of Genoa. Big Foot gryphon grandmother.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 33
+    },
+    {
+      "id": 49,
+      "commentText": "Nessie ultra terrestrials Unicorn drifted greeted. Spoke to me exploded Thomas exploded room was wet.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 48
+    },
+    {
+      "id": 50,
+      "commentText": "Abrosima mauled nightime UFO. Abominable snowman grandfather silent. Stalked Pluto chem trails hybrid Epsilon Eridani.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 47
+    },
+    {
+      "id": 51,
+      "commentText": "Ectoplasim probed Sasquach. Attacked me Augustine Foo Fighters Saint Thomas.",
+      "commentUser": "DestoryerMaggie",
+      "userId": 3,
+      "encounterId": 29
+    },
+    {
+      "id": 52,
+      "commentText": "Greeted Moth-Man paralized teleported punched bigfoot. Flash abominable snowman half-man implanted chip. Flew Cetus grandfather Orion.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 5
+    },
+    {
+      "id": 53,
+      "commentText": "Zombie chem trails silent. Punched bigfoot cryptid Unicorn. Dreamland half-man Orion. Triangle sacred cigar attacked me.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 28
+    },
+    {
+      "id": 54,
+      "commentText": "Bang Tom Cruise silver silent grandfather. Cryptid landed sonic-boom. Room was wet Catherine of Genoa dead.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 36
+    },
+    {
+      "id": 55,
+      "commentText": "Zoom stalked Cetus cryptid. Epsilon Eridani monster-human zombie Nessie mauled.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 43
+    },
+    {
+      "id": 56,
+      "commentText": "Half-man gryphon greeted Bermuda Triangle. Flying disk drifted ghost crashed. Spider attacked Catherine of Genoa exploded. Augustine grandmother Foo Fighters.",
+      "commentUser": "NarwalAeyBeeSea",
+      "userId": 4,
+      "encounterId": 41
+    },
+    {
+      "id": 57,
+      "commentText": "Room was wet glowed triangle. Hovered Big Foot monster rainbow abducted. Implanted chip grandmother spoke to me landed. Augustine paralized flying disk greeted.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 39
+    },
+    {
+      "id": 58,
+      "commentText": "Thomas silent landed sonic-boom hybrid. Unicorn alien-human beholder hybrid Abrosima. Ran spider Moth-Man greeted Bermuda Triangle. Room was wet Cetus umbrella flying disk.",
+      "commentUser": "KingVolcano",
+      "userId": 0,
+      "encounterId": 29
+    },
+    {
+      "id": 59,
+      "commentText": "Disappeared grandmother abducted went to sleep. Stalked bang Big Foot teleported. Landed stalked specter sonic-boom.",
+      "commentUser": "MonsterZe",
+      "userId": 6,
+      "encounterId": 42
+    },
+    {
+      "id": 60,
+      "commentText": "Zeta Reticuli slithered ghost. Faded giant ran disceted triangle. Disappeared flew drifted stalked. Nessie nightime dead.",
+      "commentUser": "DestoryerMaggie",
+      "userId": 3,
+      "encounterId": 49
+    },
+    {
+      "id": 61,
+      "commentText": "Slow abominable snowman nightime. Bang captured upsidedown specter Grey. Grey Big Foot animal mutilations.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 4
+    },
+    {
+      "id": 62,
+      "commentText": "Implanted chip disceted glowed cryptid. Saint spoke to me bang Saint.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 40
+    },
+    {
+      "id": 63,
+      "commentText": "Saint silver satyr abducted probed. Monster woke up teleported. Undead hovered Big Foot.",
+      "commentUser": "AstronautFrenchman",
+      "userId": 1,
+      "encounterId": 34
+    },
+    {
+      "id": 64,
+      "commentText": "Thomas Thomas chem trails zombie. Exploded captured woke up.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 22
+    },
+    {
+      "id": 65,
+      "commentText": "Lost UFO undead. Exploded Foo Fighters MK Ultra Demi-Gorgon. Saint beholder zoom drifted.",
+      "commentUser": "DestoryerMaggie",
+      "userId": 3,
+      "encounterId": 41
+    },
+    {
+      "id": 66,
+      "commentText": "Grey landed alien Saint stigmata. Sacred flying saucer Pluto Pluto.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 48
+    },
+    {
+      "id": 67,
+      "commentText": "Glowed silent animal mutilations punched bigfoot. Bermuda Triangle triangle Thomas bang.",
+      "commentUser": "RusBro",
+      "userId": 5,
+      "encounterId": 28
+    },
+    {
+      "id": 68,
+      "commentText": "Half-man slithered cryptid landed. Mauled ghost grandmother glowed. Ran specter room was wet zombie exploded.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 45
+    },
+    {
+      "id": 69,
+      "commentText": "Cetus grandmother hid. Exploded slithered gryphon Thomas. Nightime triangle cryptid.",
+      "commentUser": "XanderThatcher",
+      "userId": 7,
+      "encounterId": 32
     }
   ]
 }

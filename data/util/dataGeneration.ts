@@ -342,7 +342,8 @@ const getUsers = (qtt: number): User[] => {
             email: `${getRandomArrItem(names)}@email.com`,
             password: `password`,
             encounters: [],
-            comments: []
+            comments: [],
+            friends: []
         };
 
         users.push(newUser);
@@ -453,11 +454,20 @@ const genJSON =(
         
     };
 
-    let jsonUsers: JSONValue = JSON.stringify(users);
-
-    let jsonEncounters: JSONValue = JSON.stringify(encounters);
-
-    let jsonComments: JSONValue = JSON.stringify(comments);
+    for (let l = 0; l < 3; l++) {
+        for (let k = 0; k < users.length; k++) {
+            const user = users[k];
+            const friend = getRandomArrItem(users);
+            const endUser = users.length;
+            
+            if (user.id != friend.id && !user.friends?.includes(friend.id)) {
+                user.friends?.push(friend.id);
+                friend.friends.push(user.id);
+            };
+            
+        };
+        
+    };
 
     let db: object = {
         users: users,
@@ -465,13 +475,13 @@ const genJSON =(
         comments: comments
     };
 
-    let dbJSON = JSON.stringify(db, null, 2);
+    let dbJSON: string = JSON.stringify(db, null, 2);
 
     return dbJSON;
 
 };
 
-let data: string = genJSON(5, 50, 100, 5, 2);
+let data: string = genJSON(10, 50, 70, 5, 2);
 
 fs.writeFile('../db.json', data, (err: any) => {
     if (err) throw err;

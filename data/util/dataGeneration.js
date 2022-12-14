@@ -297,7 +297,8 @@ var getUsers = function (qtt) {
             email: "".concat(getRandomArrItem(names), "@email.com"),
             password: "password",
             encounters: [],
-            comments: []
+            comments: [],
+            friends: []
         };
         users.push(newUser);
     }
@@ -343,7 +344,7 @@ var getComments = function (qtt, commLen, useArr, encArr) {
     return comments;
 };
 var genJSON = function (userQTT, encQTT, comQTT, encLEN, comLEN) {
-    var _a, _b, _c;
+    var _a, _b, _c, _d, _e;
     var users = getUsers(userQTT);
     var encounters = getEncounters(encQTT, encLEN, users);
     var comments = getComments(comQTT, comLEN, users, encounters);
@@ -380,9 +381,20 @@ var genJSON = function (userQTT, encQTT, comQTT, encLEN, comLEN) {
         }
     }
     ;
-    var jsonUsers = JSON.stringify(users);
-    var jsonEncounters = JSON.stringify(encounters);
-    var jsonComments = JSON.stringify(comments);
+    for (var l = 0; l < 3; l++) {
+        for (var k = 0; k < users.length; k++) {
+            var user = users[k];
+            var friend = getRandomArrItem(users);
+            var endUser = users.length;
+            if (user.id != friend.id && !((_d = user.friends) === null || _d === void 0 ? void 0 : _d.includes(friend.id))) {
+                (_e = user.friends) === null || _e === void 0 ? void 0 : _e.push(friend.id);
+                friend.friends.push(user.id);
+            }
+            ;
+        }
+        ;
+    }
+    ;
     var db = {
         users: users,
         encounters: encounters,
@@ -391,7 +403,7 @@ var genJSON = function (userQTT, encQTT, comQTT, encLEN, comLEN) {
     var dbJSON = JSON.stringify(db, null, 2);
     return dbJSON;
 };
-var data = genJSON(5, 50, 100, 5, 2);
+var data = genJSON(10, 50, 70, 5, 2);
 fs.writeFile('../db.json', data, function (err) {
     if (err)
         throw err;
