@@ -8,7 +8,6 @@
     padding: 0 10px;
     border-bottom: 2px solid var(--bluefade);
     z-index: 2;
-    /* position: relative; */
   }
   
 .close {

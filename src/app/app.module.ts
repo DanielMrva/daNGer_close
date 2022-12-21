@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -11,6 +10,20 @@ import { CommentCardComponent } from './components/comment-card/comment-card.com
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
+import { EncounterContainerComponent } from './components/encounter-container/encounter-container.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LandingComponent } from './components/landing/landing.component';
+
+const appRoutes: Routes = [
+  {
+    path: '', component: HomePageComponent
+  },
+  {
+    path: 'user', component: UserPageComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -22,11 +35,16 @@ import { LoginPageComponent } from './components/login-page/login-page.component
     HomePageComponent,
     UserPageComponent,
     LoginPageComponent,
+    EncounterContainerComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

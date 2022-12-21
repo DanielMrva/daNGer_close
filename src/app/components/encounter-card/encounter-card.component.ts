@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Encounter } from '../../../../data/Interfaces';
+
 
 @Component({
   selector: 'app-encounter-card',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./encounter-card.component.css']
 })
 export class EncounterCardComponent implements OnInit {
+  @Input() encounter!: Encounter
 
   constructor() { }
 

@@ -1,1 +1,61 @@
-<p>encounter-card works!</p>
+<div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <h6 class="nav-link active">
+                    {{encounter.encounterUser}}
+                </h6>
+            </li>
+            <li class="nav-item">
+                <h6 class="nav-link disabled">
+                    {{encounter.encType}}
+                </h6>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            {{encounter.title}}
+        </h5>
+        <p class="card-text">
+            {{encounter.description}}
+        </p>
+    </div>
+    <div class="card-footer text-muted">
+        Encounted on: {{encounter.date}}
+    </div>
+</div>
+
+
+<!-- Scraps below; CE Amber styling -->
+
+<!-- <div class="card-container">
+    <div class="card-top-flex">
+        <div class="card-header-encounter">
+            <h6 class="username-card">
+                {{encounter.encounterUser}}
+            </h6>
+            <h6 class="date-card">
+                {{encounter.date}}
+            </h6>
+            <h5 class="location-card">
+                {{encounter.encType}}
+            </h5>
+            <h5 class="date-card">
+                {{encounter.category}}
+            </h5>
+        </div>
+    </div>
+</div>
+<div>
+    <p class="location-card">
+        {{encounter.title}}
+    </p>
+</div>
+<div class="description-flex">
+    <p>
+        {{encounter.description}}
+    </p>
+</div> -->
+
+
