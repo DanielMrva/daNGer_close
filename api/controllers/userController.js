@@ -8,6 +8,11 @@ class UserController {
         return await userService.getUsers();
     };
 
+    async getSingleUser(userId) {
+        logger.info('Controller: getSingleUser');
+        return await userService.getSingleUser(userId);
+    };
+
     async createUser(user) {
         logger.info('Controller: createUser', user);
         return await userService.createUser();

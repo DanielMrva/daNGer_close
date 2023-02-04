@@ -8,6 +8,10 @@ class UserService {
         return await userRepository.getUsers();
     };
 
+    async getSingleUser(userId) {
+        return await userRepository.getSingleUser(userId);
+    };
+
     async createUser(user) {
         return await userRepository.createUser(user);
     };
