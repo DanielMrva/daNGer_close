@@ -1,4 +1,4 @@
-const userService = require('../service/userService');
+const { userService } = require('../services/');
 const logger = require('../logger/api.logger');
 
 class UserController {
@@ -15,7 +15,7 @@ class UserController {
 
     async createUser(user) {
         logger.info('Controller: createUser', user);
-        return await userService.createUser();
+        return await userService.createUser(user);
     };
 
     async updateUser(user) {

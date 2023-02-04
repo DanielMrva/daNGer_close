@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const encounterController = require('../../controllers/encounterController');
+const { encounterController } = require('../../controllers/');
 
 // api/encounter
 
@@ -18,3 +18,5 @@ router.put('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     encounterController.deleteEncounter(req.params.id).then(data => res.json(data));
 });
+
+module.exports = router;

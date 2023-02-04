@@ -1,4 +1,4 @@
-const commentService = require('../service/commentService');
+const { commentService } = require('../services/');
 const logger = require('../logger/api.logger');
 
 class CommentController {
@@ -10,7 +10,7 @@ class CommentController {
 
     async createcomment(comment) {
         logger.info('Controller: createcomment', comment);
-        return await commentService.createComment();
+        return await commentService.createComment(comment);
     };
 
     async updatecomment(comment) {

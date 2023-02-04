@@ -1,5 +1,5 @@
 
-const commentRepository = require('../repository/comment.repository');
+const { commentRepository } = require('../repository/');
 
 class CommentService {
 

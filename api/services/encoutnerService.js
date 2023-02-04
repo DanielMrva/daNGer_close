@@ -1,4 +1,4 @@
-const encounterRepository = require('../repository/encounter.repository');
+const { encounterRepository } = require('../repository/');
 
 class EncounterService {
 

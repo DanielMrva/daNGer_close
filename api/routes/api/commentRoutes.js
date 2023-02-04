@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const commentController = require('../../controllers/commentController');
+const { commentController } = require('../../controllers/');
 
 // api/comment
 
@@ -18,3 +18,5 @@ router.put('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     commentController.deleteComment(req.params.id).then(data => res.json(data));
 });
+
+module.exports = router;

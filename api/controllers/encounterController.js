@@ -1,4 +1,4 @@
-const encounterService = require('../service/encounterService');
+const { encounterService } = require('../services/');
 const logger = require('../logger/api.logger');
 
 class EncounterController {
@@ -10,7 +10,7 @@ class EncounterController {
 
     async createencounter(encounter) {
         logger.info('Controller: createencounter', encounter);
-        return await encounterService.createEncounter();
+        return await encounterService.createEncounter(encounter);
     };
 
     async updateencounter(encounter) {

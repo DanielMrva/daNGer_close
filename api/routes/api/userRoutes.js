@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const userController = require('../../controllers/userController');
+const { userController } = require('../../controllers/');
 
 // api/user
 
@@ -22,3 +22,5 @@ router.put('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     userController.deleteUser(req.params.id).then(data => res.json(data));
 });
+
+module.exports = router;
