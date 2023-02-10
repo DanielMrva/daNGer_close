@@ -33,6 +33,12 @@ const userSchema = new Schema({
             ref: "Comment",
         }
     ],
+    friends: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "User",
+        }
+    ]
 });
 
 userSchema.pre("save", async function (next) {
@@ -43,10 +49,10 @@ userSchema.pre("save", async function (next) {
 
     next();
 });
-
-userSchema.methods.isCorrectPassword = async function (password) {
-    return bcrypt.compare(password, this.password);
-};
+// Password check moved out of User and into Passport
+// userSchema.methods.isCorrectPassword = async function (password) {
+//     return bcrypt.compare(password, this.password);
+// };
 
 const User = model("User", userSchema);
 

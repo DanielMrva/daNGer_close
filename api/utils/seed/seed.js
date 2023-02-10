@@ -2,7 +2,7 @@
 const { User, Encounter, Comment } = require('../../models');
 const userSeeds = require('./userSeeds.json');
 const encounterSeeds = require('./encounterSeeds.json');
-const { getEncounters, getComments } = require('./seedutils/data');
+const { getUsers, getEncounters, getComments } = require('./seedutils/data');
 const mongoose = require("mongoose");
 
 mongoose.connect(
@@ -21,20 +21,22 @@ db.once('open', async () => {
 
     //creates users and encounters
 
-    let moreEncounters = getEncounters(10, 4);
+    // let moreUsers = getUsers(10);
+    let moreEncounters = getEncounters(20, 4);
     let moreComments = getComments(50, 3);
 
     await User.create(userSeeds);
+    // await User.insertMany(moreUsers);
     await Encounter.create(encounterSeeds);
     await Encounter.insertMany(moreEncounters);
     await Comment.create(moreComments);
 
-    //creates an array of users and encounters
+    //creates an array of users, encounters, and comments
     const users = await User.find({});
     const encounters = await Encounter.find({});
     const comments = await Comment.find({});
 
-    //for loop to seed encounters and users
+    //for loop to seed encounters into users
     for (let i = 0; i < encounters.length; i++) {
       const enc = encounters[i];
       const use = users[Math.floor(Math.random() * users.length)];
@@ -93,6 +95,22 @@ db.once('open', async () => {
         )
         .catch((err) => console.log(err));
     }
+
+    // for (let k = 0; k < users.length * 2; k++) {
+    //   const use = users[Math.floor(Math.random() * users.length)];
+    //   const friend = users[Math.floor(Math.random() * user.length)];
+      
+
+    //   await User.findByIdAndUpdate(
+    //     { _id: use._id},
+    //     { $addToSet: { friends: friend._id }}
+    //   );
+
+    //   await User.findByIdAndUpdate(
+    //     { _id: friend._id },
+    //     { $addToSet: { friends: use._id }}
+    //   );
+    // };
 
     console.log('all done!');
     process.exit(0);

@@ -1,7 +1,11 @@
-const path = require('path');
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
-const routes = require('./routes/')
+const cookieParser = require('cookie-parser');
+const routes = require('./routes/');
+const passport = require('passport');
+const session = require('express-session');
+
 
 
 console.log('environment', process.env.ENVIRONMENT);
@@ -13,6 +17,11 @@ if(process.env.ENVIRONMENT !== 'production') {
 };
 
 const app = express();
+
+require('./config/passport')(passport);
+
+// TODO: Add in app.use(session) etc...
+
 const port = process.env.PORT || 3080;
 
 app.use(express.static(path.join(__dirname, './ui/build')));
