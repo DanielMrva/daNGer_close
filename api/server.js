@@ -20,6 +20,17 @@ const app = express();
 
 require('./config/passport')(passport);
 
+app.use(
+    session({
+        secret: 'supersecret',
+        resave: true,
+        saveUninitialized: true
+    })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 // TODO: Add in app.use(session) etc...
 
 const port = process.env.PORT || 3080;

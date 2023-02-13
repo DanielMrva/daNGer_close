@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const apiRoutes = require('./api');
-const authRoutes = require('.auth');
+const userRoutes = require('./userRoutes');
 
 router.use('/api', apiRoutes);
 
-router.use('/login', authRoutes);
+router.use('/user', userRoutes);
 
 router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './ui/build/index.html'));
