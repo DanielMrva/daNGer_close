@@ -12,28 +12,19 @@
   "author": "Daniel Mrva",
   "license": "MIT",
   "dependencies": {
+    "@apollo/server": "^4.3.3",
     "bcrypt": "^5.1.0",
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.6",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
     "lorem-ipsum": "^2.0.8",
-    "mongodb": "^4.13.0",
-    "mongoose": "^6.8.3",
-    "passport": "^0.6.0",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^7.1.2",
-    "pine": "^1.1.1"
+    "mongoose": "^6.9.1"
   },
   "devDependencies": {
-    "del": "^7.0.0",
-    "fancy-log": "^2.0.0",
-    "gulp": "^4.0.2",
-    "gulp-zip": "^5.1.0",
-    "nodemon": "^2.0.20",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-stream": "^7.0.0"
+    "nodemon": "^2.0.20"
   }
 }

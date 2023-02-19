@@ -96,21 +96,22 @@ db.once('open', async () => {
         .catch((err) => console.log(err));
     }
 
-    // for (let k = 0; k < users.length * 2; k++) {
-    //   const use = users[Math.floor(Math.random() * users.length)];
-    //   const friend = users[Math.floor(Math.random() * user.length)];
+    for (let k = 0; k < users.length * 3; k++) {
+      const use = users[Math.floor(Math.random() * users.length)];
+      const friend = users[Math.floor(Math.random() * users.length)];
       
+        if (use._id !== friend._id) {
+        await User.findByIdAndUpdate(
+          { _id: use._id},
+          { $addToSet: { friends: friend._id }}
+        );
 
-    //   await User.findByIdAndUpdate(
-    //     { _id: use._id},
-    //     { $addToSet: { friends: friend._id }}
-    //   );
-
-    //   await User.findByIdAndUpdate(
-    //     { _id: friend._id },
-    //     { $addToSet: { friends: use._id }}
-    //   );
-    // };
+        await User.findByIdAndUpdate(
+          { _id: friend._id },
+          { $addToSet: { friends: use._id }}
+        );
+      } 
+    };
 
     console.log('all done!');
     process.exit(0);
