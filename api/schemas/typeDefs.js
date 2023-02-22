@@ -41,24 +41,31 @@ const typeDefs = `#graphql
     user: User!
   }
 
+  type UserFriendsEncounters {
+    _id: ID
+    username: String
+    Friends_Encounters: [Encounter] 
+  }
+
   type Query {
     me(_id: String!): User
-    users: [User]
+    users: [User] #Used | Technically? REF Test.js in ceClassic Test.js, which may be a non-used component
     user(userId: ID!): User
-    singleuser(email: String!): User
-    allencounters: [Encounter]
+    singleUser(email: String!): User
+    allEncounters: [Encounter] #Used |
     encounters(username: String): [Encounter]
     encounter(encounterId: ID!): Encounter
-    visencounters(
+    visEncounters(
       lowlat: Float!
       hilat: Float!
       lowlng: Float!
       hilng: Float!
-    ): [Encounter]
-    encounterComments(encounterId: String!): [Comment]
+    ): [Encounter] #Used ||
+    encounterComments(encounterId: String!): [Comment] #Used ||
     userComments(userId: ID!): [Comment]
-    allcomments: [Comment]
+    allComments: [Comment]
     oneComment(commentId: ID!): Comment
+    friendsEncounters(userId: String!): UserFriendsEncounters
   }
   type Mutation {
     addUser(

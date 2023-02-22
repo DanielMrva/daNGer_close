@@ -2,6 +2,7 @@ const { User, Encounter, Comment } = require("../models");
 const { AuthenticationError } = require('@apollo/server');
 const { signToken } = require("../utils/auth");
 const { sign } = require("jsonwebtoken");
+const mongoose = require('mongoose');
 
 
 const resolvers = {
@@ -11,15 +12,15 @@ const resolvers = {
       return User.find(params);
     },
     users: async () => {
-      return User.find().populate(["encounters", "comments"]);
+      return User.find().populate(["encounters", "comments", "friends"]);
     },
     user: async (parent, { userId }) => {
-      return User.findOne({ _id: userId });
+      return User.findOne({ _id: userId }).populate(["encounters", "comments", "friends"]);
     },
-    singleuser: async (parent, { email }) => {
+    singleUser: async (parent, { email }) => {
       return User.findOne({ email: email });
     },
-    allencounters: async () => {
+    allEncounters: async () => {
       return Encounter.find().populate(["userId", "commentId"]);
     },
     encounters: async (parent, { username }) => {
@@ -34,7 +35,7 @@ const resolvers = {
         "commentId",
       ]);
     },
-    visencounters: async (parent, { lowlat, hilat, lowlng, hilng }) => {
+    visEncounters: async (parent, { lowlat, hilat, lowlng, hilng }) => {
       return Encounter.find({
         $and: [
           { lat: { $gte: lowlat, $lte: hilat } },
@@ -52,7 +53,7 @@ const resolvers = {
         .populate(["userId", "encounterId"])
         .sort({ createdAt: -1 });
     },
-    allcomments: async () => {
+    allComments: async () => {
       return Comment.find()
         .populate(["userId", "encounterId"])
         .sort({ createdAt: -1 });
@@ -60,6 +61,63 @@ const resolvers = {
     oneComment: async (parent, { commentId }) => {
       return Comment.findOne({ _id: commentId });
     },
+    friendsEncounters: async(parent, {userId}) => {
+      const agg = [
+        {
+          '$match': { '_id': mongoose.Types.ObjectId(userId)},
+        },
+        {
+          '$graphLookup': {
+            'from': 'encounters',
+            'startWith': '$friends',
+            'connectFromField': 'friends',
+            'connectToField': 'userId',
+            'as': 'Friends_Encounters',
+            'maxDepth': 3,
+            'depthField': 'encounters',
+            'restrictSearchWithMatch': {},
+          },
+        },
+        {
+          '$project': {
+            'username': 1,
+            'Friends_Encounters.date': 1,
+            'Friends_Encounters.encounterUser': 1,
+            'Friends_Encounters.category': 1,
+            'Friends_Encounters.description': 1,
+            'Friends_Encounters.title': 1,
+          },
+        },
+        {
+          '$unwind': {
+            'path': '$Friends_Encounters'
+          },
+        },
+        {
+          '$limit':5
+        },
+        {
+          '$sort': { 'Friends_Encounters.date': -1 },
+        },
+        {
+          '$group': {
+            '_id': '$_id',
+            'username': { '$first': '$username' },
+            'Friends_Encounters': { '$push': '$Friends_Encounters' },
+          },
+        }
+      ];
+      const cursor = User.aggregate(agg);
+      const result = await cursor.exec();
+
+      const mappedResult = {
+        _id: result[0]._id,
+        username: result[0].username,
+        Friends_Encounters: result[0].Friends_Encounters
+      }
+      return mappedResult;
+      
+    }
   },
   Mutation: {
     addUser: async (parent, { username, email, password }) => {

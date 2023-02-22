@@ -49,7 +49,7 @@ const encounterSchema = new Schema({
     },
     commentId: [
         {
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.ObjectId, //TODO: Change relationship many to one, RE: https://mongoosejs.com/docs/populate.html#populate-virtuals
             ref: "Comment",
         },
     ],

@@ -23,13 +23,13 @@ const userSchema = new Schema({
     },
     encounters: [
         {
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.ObjectId, //TODO: Change relationship many to one, RE: https://mongoosejs.com/docs/populate.html#populate-virtuals
             ref: "Encounter",
         }
     ],
     comments: [
         {
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.ObjectId, //TODO: Change relationship many to one, RE: https://mongoosejs.com/docs/populate.html#populate-virtuals
             ref: "Comment",
         }
     ],

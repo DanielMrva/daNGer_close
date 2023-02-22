@@ -1,0 +1,848 @@
+[{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a677"
+  },
+  "description": "Alien UFO sighting that occurred in October 2021. This was an extraterrestrial event.",
+  "category": [
+    "UFO Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1603260000000"
+    }
+  },
+  "lat": 40.719,
+  "lng": -103.101,
+  "title": "Cigar UFO Encounter",
+  "commentId": [],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717414"
+    }
+  },
+  "encounterUser": "alienhunter.229",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66a"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a678"
+  },
+  "description": "I saw the ghost of my great grandfather walking down the hallway of my late grandmother's family home. He was wearing his uniform from WWII.",
+  "category": [
+    "Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "929772000000"
+    }
+  },
+  "lat": 39.0078,
+  "lng": -102.4587,
+  "title": "Vision of my great grandfather",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b9"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717415"
+    }
+  },
+  "encounterUser": "susie.seeks.ghosts",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66c"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a679"
+  },
+  "description": "When on a hike with my family, we saw a flash of white out of the corner of our vision. Later on, we saw a shadowy form shaped like a unicorn in the distance.",
+  "category": [
+    "Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1356332400000"
+    }
+  },
+  "lat": 40.2213,
+  "lng": -105.5732,
+  "title": "Unicorn Sighting",
+  "commentId": [],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717416"
+    }
+  },
+  "encounterUser": "pat.of.the.paranormal",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a666"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a67a"
+  },
+  "description": "This was a UFO sighting in July of 1958 reported by multiple witnesses.",
+  "category": [
+    "UFO Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "-362768400000"
+    }
+  },
+  "lat": 40.5109,
+  "lng": -104.157,
+  "title": "Silver Disk UFO signting",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a2"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b1"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6bf"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717416"
+    }
+  },
+  "encounterUser": "bigfoots.girlfriend",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a667"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a67b"
+  },
+  "description": "Aliens were seen in the field by owner of the property. He described the sight as unnerving.",
+  "category": [
+    "Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "982134000000"
+    }
+  },
+  "lat": 40.2268,
+  "lng": -101.9901,
+  "title": "Little green men spotted in field",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a1"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6ae"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c6"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717417"
+    }
+  },
+  "encounterUser": "wendy.starlink",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a669"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a681"
+  },
+  "description": "Animal mutilations sonic-boom half-man captured UFO Cetus ghost disceted. Satyr paralized. Hovered Bermuda Triangle probed probed Tom Cruise. Attacked me probed Thomas swam drifted silver implanted chip. Flying disk zombie greeted drifted silent Big Foot ultra terrestrials. Teleported nightime disappeared satyr.",
+  "category": [
+    "Physical contact"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "733449600000"
+    }
+  },
+  "lat": 39.8798,
+  "lng": -105.3346,
+  "title": "Hybrid zombie zombie gryphon.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69b"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6bd"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6be"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717428"
+    }
+  },
+  "encounterUser": "chupacabra.collector88",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66d"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a682"
+  },
+  "description": "Mauled Orion exploded sonic-boom alien monster-human glowed greeted. Flying disk cryptid alien-human floated woke up drifted flying disk. Swam Grey chem trails Cetus Tom Cruise. Half-man swam Pluto. Catherine of Genoa Epsilon Eridani animal mutilations ultra terrestrials. Sonic-boom undead specter floated.",
+  "category": [
+    "PsychoKinesis"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "441417600000"
+    }
+  },
+  "lat": 39.106,
+  "lng": -109.8574,
+  "title": "Augustine upsidedown Foo Fighters flew MK Ultra.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b4"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b5"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a7"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717428"
+    }
+  },
+  "encounterUser": "pat.of.the.paranormal",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a666"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a683"
+  },
+  "description": "Sonic-boom satyr umbrella. Greeted attacked me. Grandfather abominable snowman floated sonic-boom zombie Cetus slime chem trails. Disappeared Saint Bermuda Triangle ultra terrestrials Grey mauled woke up faded giant. Abominable snowman triangle silver Sasquach zoom flying saucer zoom. Exploded landed Abrosima Bermuda Triangle Thomas slime.",
+  "category": [
+    "Visual Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1275696000000"
+    }
+  },
+  "lat": 39.533,
+  "lng": -109.1679,
+  "title": "Monster-human Zeta Reticuli Pluto.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69a"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6ad"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b8"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717428"
+    }
+  },
+  "encounterUser": "susie.seeks.ghosts",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66c"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a684"
+  },
+  "description": "Ran exploded. Flying saucer Unicorn swam Abrosima Tom Cruise. Sacred glowed Bermuda Triangle. Specter Abrosima. Disceted triangle nightime abducted swam spoke to me. Demi-Gorgon Augustine implanted chip.",
+  "category": [
+    "Physical contact"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1618531200000"
+    }
+  },
+  "lat": 39.4853,
+  "lng": -107.0793,
+  "title": "Silent spoke to me grandfather.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a3"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717428"
+    }
+  },
+  "encounterUser": "d.mrva",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a665"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a685"
+  },
+  "description": "Attacked Catherine of Genoa. Augustine alien flying disk punched bigfoot alien-human satyr. Bang ghost Augustine Moth-Man abominable snowman disappeared attacked. Dreamland slime.",
+  "category": [
+    "Audible Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "828835200000"
+    }
+  },
+  "lat": 38.3501,
+  "lng": -102.7587,
+  "title": "Upsidedown Demi-Gorgon slithered half-man woke up.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a8"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c2"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c7"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717429"
+    }
+  },
+  "encounterUser": "chupacabra.collector88",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66d"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a686"
+  },
+  "description": "Slime zombie flying disk Pluto beholder floated paralized dead. Alien-human chem trails Saint grandmother slithered hybrid. Dreamland Catherine of Genoa slime alien-human drifted. Thomas cryptid ultra terrestrials silver satyr implanted chip ran alien.",
+  "category": [
+    "PsychoKinesis"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "769132800000"
+    }
+  },
+  "lat": 37.1392,
+  "lng": -100.2606,
+  "title": "Went to sleep went to sleep Nessie monster abducted.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a4"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6af"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b2"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c5"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717429"
+    }
+  },
+  "encounterUser": "alienhunter.229",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66a"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a687"
+  },
+  "description": "Implanted chip floated UFO. Hybrid exploded grandmother. Abrosima ectoplasim stalked upsidedown mauled satyr. Landed slime teleported nightime flying saucer grandmother. Slithered woke up captured ran Unicorn mauled dead. Big Foot flash dead Bermuda Triangle.",
+  "category": [
+    "Physical contact"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "836697600000"
+    }
+  },
+  "lat": 39.0833,
+  "lng": -108.8029,
+  "title": "Thomas paralized attacked me.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a698"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717429"
+    }
+  },
+  "encounterUser": "susie.seeks.ghosts",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66c"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a688"
+  },
+  "description": "Captured ultra terrestrials Orion silent woke up. Umbrella Cetus flash. Probed beholder undead. Catherine of Genoa spider grandfather Augustine satyr hybrid zoom. Grey Saint grandfather exploded sacred teleported. Triangle Unicorn stigmata cigar grandmother cigar ectoplasim.",
+  "category": [
+    "Visual Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1132358400000"
+    }
+  },
+  "lat": 41.8126,
+  "lng": -102.5267,
+  "title": "Unicorn specter beholder exploded umbrella.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c4"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717429"
+    }
+  },
+  "encounterUser": "pat.of.the.paranormal",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a666"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a689"
+  },
+  "description": "Umbrella captured zoom Augustine Big Foot mauled abominable snowman Moth-Man. Moth-Man ran lost paralized greeted Sasquach. Attacked me sonic-boom ghost spider specter grandmother half-man Thomas. Demi-Gorgon ectoplasim swam triangle ghost Sasquach triangle.",
+  "category": [
+    "Audible Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "208483200000"
+    }
+  },
+  "lat": 38.708,
+  "lng": -102.5801,
+  "title": "Big Foot spoke to me Foo Fighters specter.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a5"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a6"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717429"
+    }
+  },
+  "encounterUser": "lover.of.unknown",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66b"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68a"
+  },
+  "description": "Gryphon swam cigar faded giant stalked chem trails. Tom Cruise landed. Implanted chip ectoplasim greeted Saint lost zombie. Captured bang silver ghost Moth-Man Augustine bang.",
+  "category": [
+    "Audible Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "610243200000"
+    }
+  },
+  "lat": 37.2296,
+  "lng": -102.0756,
+  "title": "Grandfather Nessie specter alien-human.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a0"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "lover.of.unknown",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66b"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68b"
+  },
+  "description": "Exploded Grey ectoplasim ghost half-man mauled ectoplasim nightime. Sasquach ghost. Dreamland ectoplasim implanted chip Grey. Animal mutilations undead spoke to me Abrosima crashed disappeared paralized. Greeted Orion Orion dead implanted chip Zeta Reticuli room was wet. Sonic-boom slithered flying disk silent attacked me disappeared.",
+  "category": [
+    "Visual Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1206057600000"
+    }
+  },
+  "lat": 41.9103,
+  "lng": -105.5913,
+  "title": "Zoom landed cryptid.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b7"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6ba"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "pat.of.the.paranormal",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a666"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68c"
+  },
+  "description": "Augustine half-man Catherine of Genoa ultra terrestrials punched bigfoot attacked me. Grandfather Abrosima. Chem trails punched bigfoot MK Ultra went to sleep Big Foot cigar. Room was wet Zeta Reticuli half-man Bermuda Triangle upsidedown paralized slime Thomas. Hovered ectoplasim hovered nightime Foo Fighters rainbow disceted abominable snowman. Big Foot gryphon.",
+  "category": [
+    "Physical contact"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "482198400000"
+    }
+  },
+  "lat": 41.6832,
+  "lng": -99.9371,
+  "title": "Ectoplasim silver probed upsidedown Orion.",
+  "commentId": [],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "alienhunter.229",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66a"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68d"
+  },
+  "description": "Umbrella Tom Cruise mauled floated Demi-Gorgon Thomas. Hovered monster-human alien-human flew landed disceted cigar. Ectoplasim swam exploded captured paralized Unicorn. Faded giant silent. Probed sacred ran ghost. Sonic-boom greeted Thomas nightime undead half-man rainbow spoke to me.",
+  "category": [
+    "Environmental change"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1500076800000"
+    }
+  },
+  "lat": 37.2588,
+  "lng": -100.3648,
+  "title": "Slithered ectoplasim dead.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69c"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "bigfoots.girlfriend",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a667"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68e"
+  },
+  "description": "Catherine of Genoa ran woke up monster-human hybrid spoke to me landed abducted. Nightime grandfather sonic-boom exploded greeted Big Foot. Pluto half-man Epsilon Eridani Cetus bang. Flash silver ran Demi-Gorgon.",
+  "category": [
+    "Visual Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "969408000000"
+    }
+  },
+  "lat": 39.4397,
+  "lng": -98.2645,
+  "title": "Room was wet monster drifted disceted spoke to me.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b0"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6a9"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "bigfoots.girlfriend",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a667"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a68f"
+  },
+  "description": "Flew Saint alien-human woke up chem trails. Cigar Unicorn Saint. Hybrid nightime. Floated room was wet UFO hybrid punched bigfoot. Saint stigmata Moth-Man. Flash spoke to me attacked floated.",
+  "category": [
+    "Environmental change"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "501811200000"
+    }
+  },
+  "lat": 40.291,
+  "lng": -101.4198,
+  "title": "Glowed flew Thomas exploded.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a696"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a699"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b3"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717430"
+    }
+  },
+  "encounterUser": "d.mrva",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a665"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a690"
+  },
+  "description": "Swam satyr hid. Abducted exploded UFO attacked half-man Moth-Man. Zombie flash landed Unicorn ultra terrestrials implanted chip. Disappeared Catherine of Genoa floated disappeared Catherine of Genoa. Pluto flying disk stalked Big Foot faded giant.",
+  "category": [
+    "Physical contact"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "419040000000"
+    }
+  },
+  "lat": 41.4069,
+  "lng": -106.5076,
+  "title": "Punched bigfoot silver exploded.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6aa"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c1"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717431"
+    }
+  },
+  "encounterUser": "lover.of.unknown",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66b"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a691"
+  },
+  "description": "Flying saucer nightime disceted Abrosima attacked me undead. Captured exploded. Pluto went to sleep room was wet. Orion UFO faded giant bang dead. Dead Unicorn undead. Grandmother chem trails.",
+  "category": [
+    "Audible Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "992649600000"
+    }
+  },
+  "lat": 41.0123,
+  "lng": -95.7016,
+  "title": "Slithered spoke to me disappeared slime Tom Cruise.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a697"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69d"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6ab"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6bb"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717431"
+    }
+  },
+  "encounterUser": "chupacabra.collector88",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66d"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a692"
+  },
+  "description": "Zombie chem trails Unicorn dead went to sleep went to sleep cryptid floated. Lost mauled alien greeted. Dead sacred Epsilon Eridani Thomas Tom Cruise. Grandmother monster-human slow UFO mauled. Captured lost floated chem trails spoke to me zombie. Ran grandfather attacked specter abducted sonic-boom animal mutilations.",
+  "category": [
+    "Audible Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "669600000000"
+    }
+  },
+  "lat": 39.2533,
+  "lng": -106.4748,
+  "title": "Glowed hid paralized.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6ac"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c3"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717431"
+    }
+  },
+  "encounterUser": "wendy.starlink",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a669"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a693"
+  },
+  "description": "Probed went to sleep lost Cetus faded giant. Grandfather specter stigmata. Drifted Unicorn Demi-Gorgon spider Epsilon Eridani Catherine of Genoa. Tom Cruise Bermuda Triangle woke up. Lost glowed specter silver teleported cigar. Monster hid exploded Grey Moth-Man ghost Foo Fighters Catherine of Genoa.",
+  "category": [
+    "Environmental change"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "1073174400000"
+    }
+  },
+  "lat": 37.1278,
+  "lng": -99.3627,
+  "title": "MK Ultra ectoplasim exploded umbrella Saint.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69f"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6bc"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6c0"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717431"
+    }
+  },
+  "encounterUser": "d.mrva",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a665"
+  }
+},{
+  "_id": {
+    "ObjectId": "63f1a4ad556367cd5011a694"
+  },
+  "description": "Undead cigar. Cryptid zoom. Animal mutilations room was wet Cetus floated Big Foot cryptid dead. Zeta Reticuli beholder silent flash.",
+  "category": [
+    "Visual Sighting"
+  ],
+  "date": {
+    "$date": {
+      "$numberLong": "863568000000"
+    }
+  },
+  "lat": 41.2336,
+  "lng": -102.196,
+  "title": "Beholder grandmother spoke to me.",
+  "commentId": [
+    {
+      "ObjectId": "63f1a4ad556367cd5011a69e"
+    },
+    {
+      "ObjectId": "63f1a4ad556367cd5011a6b6"
+    }
+  ],
+  "cooberations": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676780717431"
+    }
+  },
+  "encounterUser": "susie.seeks.ghosts",
+  "userId": {
+    "ObjectId": "63f1a4ad556367cd5011a66c"
+  }
+}]
