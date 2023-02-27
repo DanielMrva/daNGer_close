@@ -1,2 +1,4 @@
 node_modules
 scraps
+data/util
+db.json

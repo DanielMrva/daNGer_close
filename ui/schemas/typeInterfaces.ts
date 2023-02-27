@@ -24,7 +24,7 @@ export interface Encounter {
     corroborations: string[];
 };
 
-export interface EncComment {
+export interface Comment {
     _id: string;
     commentText: string;
     createdAt: string;

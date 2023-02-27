@@ -309,7 +309,7 @@ const getEncounters = (qtt, descLength) => {
   for (i = 0; i < qtt; i++) {
     encounters.push({
       category: getRandomArrItem(category),
-      type: getRandomArrItem(type),
+      encType: getRandomArrItem(type),
       lat: getRandomFloat(37, 42, 4),
       lng: getRandomFloat(-95, -110, 4),
       title: randomTitleText(1),

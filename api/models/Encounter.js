@@ -7,6 +7,10 @@ const encounterSchema = new Schema({
         required: true,
         max_length: 250,
     },
+    encType: {
+        type: String,
+        required: true,
+    },
     category: {
         type: [String],
         required: true,

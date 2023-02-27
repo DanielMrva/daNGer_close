@@ -1,7 +1,7 @@
 [    
     {
         "date": "10-21-2020",
-        "type": "Extraterrestrial",
+        "encType": "Extraterrestrial",
         "category": "UFO Sighting",
         "lat": 40.7190,
         "lng": -103.1010,
@@ -10,7 +10,7 @@
     },
     {
         "date": "6-19-1999",
-        "type": "Paranormal",
+        "encType": "Paranormal",
         "category": "Sighting",
         "lat": 39.0078,
         "lng": -102.4587,
@@ -19,7 +19,7 @@
     },
     {
         "date": "12-24-2012",
-        "type": "Zoological",
+        "encType": "Zoological",
         "category": "Sighting",
         "lat": 40.2213,
         "lng": -105.5732,
@@ -28,7 +28,7 @@
     },
     {
         "date": "7-4-1958",
-        "type": "Extraterrestrial",
+        "encType": "Extraterrestrial",
         "category": "UFO Sighting",
         "lat": 40.5109,
         "lng": -104.1570,
@@ -37,7 +37,7 @@
     },
     {
         "date": "2-14-2001",
-        "type": "Extraterrestrial",
+        "encType": "Extraterrestrial",
         "category": "Sighting",
         "lat": 40.2268,
         "lng": -101.9901,

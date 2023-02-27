@@ -86,6 +86,7 @@ const resolvers = {
             'Friends_Encounters.category': 1,
             'Friends_Encounters.description': 1,
             'Friends_Encounters.title': 1,
+            'Friends_Encounters.encType': 1,
           },
         },
         {
@@ -153,24 +154,26 @@ const resolvers = {
       parent,
       {
         encounterUser,
-        date,
-        category,
-        lat,
-        lng,
         title,
         description,
-        userId,
+        encType,
+        category,
+        date,
+        lat,
+        lng,
+        userId
       }
     ) => {
       const encounter = await Encounter.create({
         encounterUser,
-        date,
-        category,
-        lat,
-        lng,
         title,
         description,
-        userId,
+        encType,
+        category,
+        date,
+        lat,
+        lng,
+        userId
       });
 
       await User.findOneAndUpdate(
