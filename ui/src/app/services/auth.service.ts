@@ -17,7 +17,7 @@ export class AuthService {
     this._isLoggedIn$.next(!!token);
    }
 
-   login(username: string, password: string) {
+  login(username: string, password: string) {
     return this.userService.loginUser(username, password).pipe(
       tap((response: any) => {
         this._isLoggedIn$.next(true);

@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Apollo, gql, QueryRef } from 'apollo-angular';
-import { User } from '../../../schemas/typeInterfaces';
+import { Apollo, Mutation, QueryRef, MutationResult  } from 'apollo-angular';
+import { User, Auth } from '../../../schemas/typeInterfaces'
 import { ADD_USER, LOGIN_USER } from 'schemas/mutations';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-
-
 
   constructor(private apollo: Apollo) { }
 
