@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Apollo } from 'apollo-angular';
 import { ALL_ENCOUNTERS, USER_ENCOUNTERS, SINGLE_ENCOUNTER, VIS_ENCOUNTERS, FRIENDS_ENCOUNTERS } from 'schemas/queries';
 import { ADD_ENCOUNTER } from 'schemas/mutations';
+import { map } from 'rxjs/operators'
 
 
 @Injectable({
@@ -16,9 +17,10 @@ export class EncounterService {
       return this.apollo.watchQuery({
         query: ALL_ENCOUNTERS
       })
-      .valueChanges.subscribe(({data}: any) => {
-        this.allEncounters = data.encounters
-      });
+      .valueChanges.pipe(map((result: any) => {
+        console.log(result.data.encounters)
+        return result.data.encounters;
+      }));
     }
 
     userEncounters(username: string) {

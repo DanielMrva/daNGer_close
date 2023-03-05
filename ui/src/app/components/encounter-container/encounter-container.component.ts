@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Encounter, EncComment} from '../../../../data/Interfaces';
-import { Subscription } from 'rxjs';
+import { Observable } from 'rxjs';
 import { EncounterService } from 'src/app/services/encounter.service';
 
 @Component({
@@ -10,16 +10,14 @@ import { EncounterService } from 'src/app/services/encounter.service';
 })
 export class EncounterContainerComponent implements OnInit {
 
-  encounters: Encounter[] = [];
+  allEncounters!: Observable<any>;
 
-  private querySubscription: Subscription = new Subscription;
 
   constructor( private encounterService: EncounterService) { }
 
   ngOnInit(): void {
-
-    this.querySubscription = this.encounterService.allEncounters();
-
+    this.allEncounters = this.encounterService.allEncounters();
+    
   };
 
 }
