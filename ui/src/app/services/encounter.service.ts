@@ -66,9 +66,10 @@ export class EncounterService {
             hilng: hilng
           }
         })
-        .valueChanges.subscribe(({data}: any) => {
-          this.visEncounters = data.visEncounters
-        });
+        .valueChanges.pipe(map((result: any) => {
+          console.log(result.data.visEncounters)
+          return result.data.visEncounters;
+        }))
       }
 
     friendsEncounters(userId: string) {

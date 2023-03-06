@@ -21,7 +21,7 @@ export class EncounterContainerComponent implements OnInit {
     // this.allEncounters = this.encounterService.allEncounters();
     // this.userEncounters = this.encounterService.userEncounters('d.mrva');
     // this.testEncounters = this.encounterService.singleEncounter('64040d2c342cb7ff65d7602d')
-    this.testEncounters = this.encounterService.friendsEncounters('64040d2c342cb7ff65d7601b');
+    this.testEncounters = this.encounterService.visEncounters(39,42,-105,-100);
 
     
   };
