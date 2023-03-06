@@ -57,13 +57,14 @@ const encounterSchema = new Schema({
             ref: "Comment",
         },
     ],
-    cooberations: [
+    corroborations: [
         {
             type: Schema.Types.ObjectId,
             ref: "User",
         },
     ],
 });
+
 
 encounterSchema.methods.comCount = function () {
     comCount = this.commentId.length();

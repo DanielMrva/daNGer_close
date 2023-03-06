@@ -1,7 +1,12 @@
 <div class="card-container">
-        <app-encounter-card
+        <!-- <app-encounter-card
                 *ngFor="let encounter of allEncounters | async"
                 [encounter]="encounter">
         
+        </app-encounter-card> -->
+        <app-encounter-card
+        *ngFor="let encounter of testEncounters | async"
+        [encounter]="encounter">
+
         </app-encounter-card>
 </div>

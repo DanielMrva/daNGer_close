@@ -35,7 +35,7 @@ export const QUERY_SINGLEUSER = gql`
 
 export const ALL_ENCOUNTERS = gql`
     query allEncounters {
-        encounters {
+        allEncounters {
             _id
             description
             encType
@@ -59,8 +59,8 @@ export const ALL_ENCOUNTERS = gql`
 `
 
 export const USER_ENCOUNTERS = gql`
-    query encounters($username: String!) {
-        encounters(username: $username) {
+    query userEncounters($encounterUser: String) {
+        userEncounters(encounterUser: $encounterUser) {
             _id
             description
             encType
@@ -84,8 +84,8 @@ export const USER_ENCOUNTERS = gql`
 `
 
 export const SINGLE_ENCOUNTER = gql`
-    query encounter($encounterId: ID!) {
-        encounter(_id: $encounterId) {
+    query singleEncounter($encounterId: ID!) {
+        singleEncounter(_id: $encounterId) {
             _id
             description
             encType
@@ -149,7 +149,7 @@ export const FRIENDS_ENCOUNTERS = gql`
             _id
             username
             Friends_Encounters {
-                _id
+            _id
             description
             encType
             category
@@ -159,9 +159,6 @@ export const FRIENDS_ENCOUNTERS = gql`
             createdAt
             title
             encounterUser
-            userId {
-                username
-            }
             commentId {
                 commentText
                 commentUser

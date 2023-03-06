@@ -54,8 +54,8 @@ const typeDefs = `#graphql
     user(userId: ID!): User
     singleUser(email: String!): User
     allEncounters: [Encounter] #Used |
-    encounters(username: String): [Encounter]
-    encounter(encounterId: ID!): Encounter
+    userEncounters(encounterUser: String): [Encounter]
+    singleEncounter(_id: ID!): Encounter
     visEncounters(
       lowlat: Float!
       hilat: Float!

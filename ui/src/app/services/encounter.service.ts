@@ -18,21 +18,22 @@ export class EncounterService {
         query: ALL_ENCOUNTERS
       })
       .valueChanges.pipe(map((result: any) => {
-        console.log(result.data.encounters)
-        return result.data.encounters;
+        console.log(result.data.allEncounters)
+        return result.data.allEncounters;
       }));
     }
 
-    userEncounters(username: string) {
+    userEncounters(encounterUser: string) {
       return this.apollo.watchQuery({
         query: USER_ENCOUNTERS,
         variables: {
-          username: username
+          encounterUser: encounterUser
         },
       })
-      .valueChanges.subscribe(({data}: any) => {
-        this.userEncounters = data.encounters
-      });
+      .valueChanges.pipe(map((result: any) => {
+        console.log(result.data.userEncounters)
+        return result.data.userEncounters;
+      }))
     }
 
     singleEncounter(encounterId: string) {
@@ -40,11 +41,15 @@ export class EncounterService {
         query: SINGLE_ENCOUNTER,
         variables: {
           encounterId: encounterId
-        },
+        }
       })
-      .valueChanges.subscribe(({data}: any) => {
-        this.singleEncounter = data.encounter
-      });
+      .valueChanges.pipe(map((result: any) => {
+        console.log(result.data.singleEncounter)
+        let resultArray = [];
+        resultArray.push(result.data.singleEncounter);
+        return resultArray;
+
+      }))
     }
 
     visEncounters(
@@ -73,9 +78,10 @@ export class EncounterService {
             userId: userId
           }
         })
-        .valueChanges.subscribe(({data}: any) => {
-          this.friendsEncounters = data.friendsEncounters
-        });
+        .valueChanges.pipe(map((result: any) => {
+          console.log(result.data.friendsEncounters)
+          return result.data.friendsEncounters.Friends_Encounters;
+        }))
       }
 
     addEncounter(

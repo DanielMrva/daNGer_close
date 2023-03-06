@@ -3,6 +3,7 @@ const { AuthenticationError } = require('@apollo/server');
 const { signToken } = require("../utils/auth");
 const { sign } = require("jsonwebtoken");
 const mongoose = require('mongoose');
+const dateFormat = require("../utils/dateFormat");
 
 
 const resolvers = {
@@ -23,14 +24,17 @@ const resolvers = {
     allEncounters: async () => {
       return Encounter.find().populate(["userId", "commentId"]);
     },
-    encounters: async (parent, { username }) => {
-      const params = username ? { username } : {};
-      return await Encounter.find(params)
-        .sort({ createdAt: -1 })
-        .populate(["userId", "commentId"]);
+    userEncounters: async (parent, { encounterUser }) => {
+      return await Encounter.find({encounterUser: encounterUser}).populate(["userId", "commentId"]);
     },
-    encounter: async (parent, { encounterId }) => {
-      return Encounter.findOne({ _id: encounterId }).populate([
+    // encounters: async (parent, { username }) => {
+    //   const params = username ? { username } : {};
+    //   return await Encounter.find(params)
+    //     .sort({ createdAt: -1 })
+    //     .populate(["userId", "commentId"]);
+    // },
+    singleEncounter: async (parent, { _id }) => {
+      return Encounter.findOne({ _id: _id }).populate([
         "userId",
         "commentId",
       ]);
@@ -80,13 +84,20 @@ const resolvers = {
         },
         {
           '$project': {
+            '_id':1,
             'username': 1,
-            'Friends_Encounters.date': 1,
-            'Friends_Encounters.encounterUser': 1,
-            'Friends_Encounters.category': 1,
+            'Friends_Encounters._id': 1,
             'Friends_Encounters.description': 1,
-            'Friends_Encounters.title': 1,
             'Friends_Encounters.encType': 1,
+            'Friends_Encounters.category': 1,
+            'Friends_Encounters.date': 1,
+            'Friends_Encounters.lat': 1,
+            'Friends_Encounters.lng': 1,
+            'Friends_Encounters.createdAt': 1,
+            'Friends_Encounters.title': 1,
+            'Friends_Encounters.encounterUser': 1,
+            'Friends_Encounters.commentId': 1,
+            'Friends_Encounters.corroborations': 1,
           },
         },
         {
@@ -95,7 +106,7 @@ const resolvers = {
           },
         },
         {
-          '$limit':5
+          '$limit':10
         },
         {
           '$sort': { 'Friends_Encounters.date': -1 },
@@ -115,9 +126,14 @@ const resolvers = {
         _id: result[0]._id,
         username: result[0].username,
         Friends_Encounters: result[0].Friends_Encounters
-      }
-      return mappedResult;
-      
+      };
+
+      mappedResult.Friends_Encounters.forEach((friendEncounter) => {
+        friendEncounter.date = dateFormat(friendEncounter.date);
+        friendEncounter.createdAt = dateFormat(friendEncounter.createdAt);
+      });
+
+      return mappedResult;  
     }
   },
   Mutation: {

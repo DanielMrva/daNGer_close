@@ -11,12 +11,18 @@ import { EncounterService } from 'src/app/services/encounter.service';
 export class EncounterContainerComponent implements OnInit {
 
   allEncounters!: Observable<any>;
+  // userEncounters!: Observable<any>;
+  testEncounters!: Observable<any>
 
 
   constructor( private encounterService: EncounterService) { }
 
   ngOnInit(): void {
-    this.allEncounters = this.encounterService.allEncounters();
+    // this.allEncounters = this.encounterService.allEncounters();
+    // this.userEncounters = this.encounterService.userEncounters('d.mrva');
+    // this.testEncounters = this.encounterService.singleEncounter('64040d2c342cb7ff65d7602d')
+    this.testEncounters = this.encounterService.friendsEncounters('64040d2c342cb7ff65d7601b');
+
     
   };
 
